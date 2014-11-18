@@ -1,0 +1,1 @@
+select TABLE_SCHEMA,TABLE_NAME, PARTITION_NAME from information_schema.PARTITIONS  where TABLE_SCHEMA = 'TEST' and TABLE_NAME='Persons_partitioned' and partition_name='rx201411' \G;

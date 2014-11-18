@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT p.* FROM     dbo.Persons_pipe_datetime p) t WHERE 1=2

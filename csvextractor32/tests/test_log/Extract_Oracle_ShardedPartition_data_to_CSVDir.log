@@ -1,0 +1,58 @@
+
+c:\Python27\csvextractor_1235>echo y  | csvextractor32.exe -w ora2csv -o 3 -r 3 -t "|" -c SCOTT.Persons_partitioned -P sales_apr2014 -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -D c:\Python27\csvextractor_1235\CSV_OUT
+----------------------------------------------------------------------
+CSV*Extractor Pro (v1.23.5, beta, 2014/11/18 13:07:01) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+####################
+Performing data extraction.
+
+From Oracle:
+from db: SCOTT@orcl
+table: SCOTT.Persons_partitioned
+partition: sales_apr2014
+shards:	3
+
+
+To CSV:
+c:\Python27\csvextractor_1235\CSV_OUT\SCOTT.Persons_partitioned_sales_apr2014.20141118_131249_720000.Shard-0.data
+c:\Python27\csvextractor_1235\CSV_OUT\SCOTT.Persons_partitioned_sales_apr2014.20141118_131249_720000.Shard-1.data
+c:\Python27\csvextractor_1235\CSV_OUT\SCOTT.Persons_partitioned_sales_apr2014.20141118_131249_720000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n): ############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-11-18 13:12:49,750 - ora2csv - INFO - Fetching table info...
+2014-11-18 13:12:49,875 - ora2csv - INFO - Done.
+2014-11-18 13:12:49,875 - ora2csv - INFO - Verifying partition...
+2014-11-18 13:12:50,121 - ora2csv - INFO - Done.
+2014-11-18 13:12:50,262 - ora2csv - INFO - Fetching column info...
+2014-11-18 13:12:50,371 - ora2csv - INFO - Done.
+2014-11-18 13:12:50,371 - ora2csv - INFO - Starting Thread-0
+2014-11-18 13:12:50,371 - ora2csv - INFO - Starting Thread-1
+2014-11-18 13:12:50,371 - ora2csv - INFO - Starting Thread-2
+2014-11-18 13:12:50,371 - ora2csv - INFO - Thread-1 processing Shard-0
+2014-11-18 13:12:50,371 - ora2csv - INFO - Thread-0 processing Shard-1
+2014-11-18 13:12:50,371 - ora2csv - INFO - Thread-2 processing Shard-2
+2014-11-18 13:12:50,371 - ora2csv - INFO - Extracting data...
+2014-11-18 13:12:50,371 - ora2csv - INFO - Extracting data...
+2014-11-18 13:12:50,371 - ora2csv - INFO - Extracting data...
+2014-11-18 13:12:50,496 - ora2csv - INFO - Done.
+2014-11-18 13:12:50,496 - ora2csv - INFO - Thread-2 exit status 0
+2014-11-18 13:12:50,496 - ora2csv - INFO - Exiting Thread-2
+2014-11-18 13:12:50,539 - ora2csv - INFO - Done.
+2014-11-18 13:12:50,539 - ora2csv - INFO - Thread-1 exit status 0
+2014-11-18 13:12:50,539 - ora2csv - INFO - Exiting Thread-1
+2014-11-18 13:12:50,585 - ora2csv - INFO - Done.
+2014-11-18 13:12:50,585 - ora2csv - INFO - Thread-0 exit status 0
+2014-11-18 13:12:50,585 - ora2csv - INFO - Exiting Thread-0
+2014-11-18 13:12:50,585 - ora2csv - INFO - Shard-0/0:         375 rows
+2014-11-18 13:12:50,585 - ora2csv - INFO - Shard-1/0:         600 rows
+2014-11-18 13:12:50,585 - ora2csv - INFO - Shard-2/0:          49 rows
+2014-11-18 13:12:50,585 - ora2csv - INFO - TOTAL Bytes:      103421 Bytes
+2014-11-18 13:12:50,585 - ora2csv - INFO - TOTAL Rows:         1024 Rows
+2014-11-18 13:12:50,585 - ora2csv - INFO - Done.
+2014-11-18 13:12:50,585 - ora2csv - INFO - Elapsed: 00:00:00

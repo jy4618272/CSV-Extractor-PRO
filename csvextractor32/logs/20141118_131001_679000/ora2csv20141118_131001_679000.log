@@ -1,0 +1,31 @@
+11/18/2014 01:10:01 PM | ora2csv | INFO | Fetching table info...
+11/18/2014 01:10:01 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:01 PM | ora2csv | INFO | Verifying sub-partition...
+11/18/2014 01:10:02 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:02 PM | ora2csv | INFO | Fetching column info...
+11/18/2014 01:10:02 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:02 PM | ora2csv | INFO | Starting Thread-0
+11/18/2014 01:10:02 PM | ora2csv | INFO | Starting Thread-1
+11/18/2014 01:10:02 PM | ora2csv | INFO | Starting Thread-2
+11/18/2014 01:10:02 PM | ora2csv | INFO | Thread-0 processing Shard-0
+11/18/2014 01:10:02 PM | ora2csv | INFO | Thread-1 processing Shard-1
+11/18/2014 01:10:02 PM | ora2csv | INFO | Thread-2 processing Shard-2
+11/18/2014 01:10:02 PM | ora2csv | INFO | Extracting data...
+11/18/2014 01:10:02 PM | ora2csv | INFO | Extracting data...
+11/18/2014 01:10:02 PM | ora2csv | INFO | Extracting data...
+11/18/2014 01:10:02 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:02 PM | ora2csv | INFO | Thread-2 exit status 0
+11/18/2014 01:10:02 PM | ora2csv | INFO | Exiting Thread-2
+11/18/2014 01:10:02 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:02 PM | ora2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:10:02 PM | ora2csv | INFO | Exiting Thread-0
+11/18/2014 01:10:02 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:02 PM | ora2csv | INFO | Thread-1 exit status 0
+11/18/2014 01:10:02 PM | ora2csv | INFO | Exiting Thread-1
+11/18/2014 01:10:02 PM | ora2csv | INFO | Shard-0/0:         465 rows
+11/18/2014 01:10:02 PM | ora2csv | INFO | Shard-1/0:         600 rows
+11/18/2014 01:10:02 PM | ora2csv | INFO | Shard-2/0:         375 rows
+11/18/2014 01:10:02 PM | ora2csv | INFO | TOTAL Bytes:      145437 Bytes
+11/18/2014 01:10:02 PM | ora2csv | INFO | TOTAL Rows:         1440 Rows
+11/18/2014 01:10:02 PM | ora2csv | INFO | Done.
+11/18/2014 01:10:02 PM | ora2csv | INFO | Elapsed: 00:00:00

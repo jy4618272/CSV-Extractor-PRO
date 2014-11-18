@@ -1,0 +1,5 @@
+SELECT * FROM TEST.Persons_pipe_datetime LIMIT 10
+INTO OUTFILE 'c:\\Python27\\csvextractor_1235\\CSV_OUT\\TEST.Persons_pipe_datetime_20141118_131901_724000.Shard-0.data'
+FIELDS ENCLOSED BY '' TERMINATED BY '|' ESCAPED BY ''
+LINES TERMINATED BY '\r\n';
+SELECT ROW_COUNT();

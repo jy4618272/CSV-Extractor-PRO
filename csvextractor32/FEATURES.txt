@@ -1,0 +1,31 @@
+##
+##csvextractor32.exe -h FEAT 
+##
+----------------------------------------------------------------------
+CSV*Extractor Pro (v1.23.5, beta, 2014/11/18 13:07:01) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+	1. Extract table data from "DB2 Workgroup Server" to "CSV file"
+	2. Extract table data from "SQL Server Express" to "CSV file"
+	3. Extract table data from "Sybase SQL Anywhere" to "CSV file"
+	4. Extract table data from "DB2 Advanced Workgroup Server" to "CSV file"
+	5. Extract table data from "DB2 Enterprise Server" to "CSV file"
+	6. Extract table data from "Sybase IQ" to "CSV file"
+	7. Extract table data from "PostgreSQL" to "CSV file"
+	8. Extract table data from "DB2 Express" to "CSV file"
+	9. Extract table data from "TimesTen" to "CSV file"
+	10. Extract table data from "MariaDB" to "CSV file"
+	11. Extract table data from "SQL Lite" to "CSV file"
+	12. Extract table data from "Oracle XE" to "CSV file"
+	13. Extract table data from "DB2 Advanced Enterprise Server" to "CSV file"
+	14. Extract table data from "Informix Innovator C" to "CSV file"
+	15. Extract table data from "Exadata" to "CSV file"
+	16. Extract table data from "SAP Sybase ASE" to "CSV file"
+	17. Extract table data from "DB2 Express C" to "CSV file"
+	18. Extract table data from "Infobright" to "CSV file"
+	19. Extract table data from "SQL Server Enterprise" to "CSV file"
+	20. Extract table data from "MySQL" to "CSV file"
+	21. Extract table data from "DB2 Developer Edition" to "CSV file"
+	22. Extract table data from "Informix IDS" to "CSV file"
+	23. Extract table data from "Oracle" to "CSV file"

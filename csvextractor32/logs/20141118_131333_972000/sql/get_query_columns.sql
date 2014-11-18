@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM TEST.Persons_partitioned PARTITION(rx201411)) p WHERE 1=2;

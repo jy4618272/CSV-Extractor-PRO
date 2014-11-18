@@ -1,0 +1,12 @@
+11/18/2014 01:09:41 PM | slite2csv | INFO | Counting rows in source...
+11/18/2014 01:09:41 PM | slite2csv | INFO | Starting Thread-0
+11/18/2014 01:09:41 PM | slite2csv | INFO | Thread-0 processing Shard-0
+11/18/2014 01:09:41 PM | slite2csv | INFO | Extracting data...
+11/18/2014 01:09:41 PM | slite2csv | INFO | Done.
+11/18/2014 01:09:41 PM | slite2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:09:41 PM | slite2csv | INFO | Exiting Thread-0
+11/18/2014 01:09:41 PM | slite2csv | INFO | Shard-0/0:          39 rows
+11/18/2014 01:09:41 PM | slite2csv | INFO | TOTAL Bytes:        3783 Bytes
+11/18/2014 01:09:41 PM | slite2csv | INFO | TOTAL Rows:           39 Rows
+11/18/2014 01:09:41 PM | slite2csv | INFO | Done.
+11/18/2014 01:09:41 PM | slite2csv | INFO | Elapsed: 00:00:00

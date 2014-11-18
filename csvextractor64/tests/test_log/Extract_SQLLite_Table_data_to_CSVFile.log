@@ -1,0 +1,38 @@
+
+c:\Python27\csvextractor_1235>echo y  | csvextractor64.exe -w slite2csv -o 1 -r 1 -t "|" -c Persons_pipe_datetime -b C:\Temp\SqlLite\database.db -z "C:\Temp\SqlLite" -g c:\Python27\csvextractor_1235\CSV_OUT\testSLITE_Table.data
+----------------------------------------------------------------------
+CSV*Extractor Pro (v1.23.5, beta, 2014/11/18 13:07:01) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+####################
+Performing data extraction.
+
+From SQL Lite:
+from db: C:\Temp\SqlLite\database.db
+table: Persons_pipe_datetime
+shards:	1
+
+
+
+To CSV:
+c:\Python27\csvextractor_1235\CSV_OUT\testSLITE_Table.data
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-11-18 13:19:46,828 - slite2csv - INFO - Counting rows in source...
+2014-11-18 13:19:46,842 - slite2csv - INFO - Starting Thread-0
+2014-11-18 13:19:46,842 - slite2csv - INFO - Thread-0 processing Shard-0
+2014-11-18 13:19:46,842 - slite2csv - INFO - Extracting data...
+2014-11-18 13:19:46,874 - slite2csv - INFO - Done.
+2014-11-18 13:19:46,874 - slite2csv - INFO - Thread-0 exit status 0
+2014-11-18 13:19:46,874 - slite2csv - INFO - Exiting Thread-0
+2014-11-18 13:19:46,874 - slite2csv - INFO - Shard-0/0:          88 rows
+2014-11-18 13:19:46,874 - slite2csv - INFO - TOTAL Bytes:        8536 Bytes
+2014-11-18 13:19:46,874 - slite2csv - INFO - TOTAL Rows:           88 Rows
+2014-11-18 13:19:46,874 - slite2csv - INFO - Done.
+2014-11-18 13:19:46,874 - slite2csv - INFO - Elapsed: 00:00:00

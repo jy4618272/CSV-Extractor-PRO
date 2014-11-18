@@ -1,0 +1,15 @@
+11/18/2014 01:16:11 PM | ssent2csv | INFO | Counting rows...
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Done.
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Fetching query columns...
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Done.
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Starting Thread-0
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Thread-0 processing Shard-0
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Extracting data...
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Done.
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Exiting Thread-0
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Shard-0/0:          82 rows
+11/18/2014 01:16:12 PM | ssent2csv | INFO | TOTAL Bytes:        8363 Bytes
+11/18/2014 01:16:12 PM | ssent2csv | INFO | TOTAL Rows:           82 Rows
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Done.
+11/18/2014 01:16:12 PM | ssent2csv | INFO | Elapsed: 00:00:00

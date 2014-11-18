@@ -1,0 +1,43 @@
+##
+##csvextractor32.exe -h ABOUT 
+##
+----------------------------------------------------------------------
+CSV*Extractor Pro (v1.23.5, beta, 2014/11/18 13:07:01) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+******************************************************
+"CSV*Extractor Pro" version 1.23.5 (32bit)
+
+Command line tool for CSV data extraction from 23 databases:
+
+DB2 Advanced Enterprise Server
+DB2 Advanced Workgroup Server
+DB2 Developer Edition
+DB2 Enterprise Server
+DB2 Express
+DB2 Express C
+DB2 Workgroup Server
+Exadata
+Infobright
+Informix IDS
+Informix Innovator C
+MariaDB
+MySQL
+Oracle
+Oracle XE
+PostgreSQL
+SAP Sybase ASE
+SQL Lite
+SQL Server Enterprise
+SQL Server Express
+Sybase IQ
+Sybase SQL Anywhere
+TimesTen
+
+******************************************************
+  Author: Alex Buzunov
+Facebook: https://www.facebook.com/buzunov
+Linkedin: http://www.linkedin.com/in/alexbuz/
+     Art: http://www.craftsy.com/user/1686593/projects
+

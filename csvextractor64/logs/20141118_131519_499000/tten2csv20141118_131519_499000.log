@@ -1,0 +1,25 @@
+11/18/2014 01:15:19 PM | tten2csv | WARNING | Overriding num_of_shards (1) to be equal number of queries (3).
+11/18/2014 01:15:19 PM | tten2csv | INFO | Counting rows in source...
+11/18/2014 01:15:23 PM | tten2csv | INFO | Counting rows in source...
+11/18/2014 01:15:27 PM | tten2csv | INFO | Counting rows in source...
+11/18/2014 01:15:30 PM | tten2csv | INFO | Starting Thread-0
+11/18/2014 01:15:30 PM | tten2csv | INFO | Thread-0 processing Shard-0
+11/18/2014 01:15:30 PM | tten2csv | INFO | Extracting data...
+11/18/2014 01:15:32 PM | tten2csv | INFO | Done.
+11/18/2014 01:15:32 PM | tten2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:15:32 PM | tten2csv | INFO | Thread-0 processing Shard-1
+11/18/2014 01:15:32 PM | tten2csv | INFO | Extracting data...
+11/18/2014 01:15:34 PM | tten2csv | INFO | Done.
+11/18/2014 01:15:34 PM | tten2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:15:34 PM | tten2csv | INFO | Thread-0 processing Shard-2
+11/18/2014 01:15:34 PM | tten2csv | INFO | Extracting data...
+11/18/2014 01:15:36 PM | tten2csv | INFO | Done.
+11/18/2014 01:15:36 PM | tten2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:15:36 PM | tten2csv | INFO | Exiting Thread-0
+11/18/2014 01:15:36 PM | tten2csv | INFO | Shard-0/0:		n/a
+11/18/2014 01:15:36 PM | tten2csv | INFO | Shard-1/0:		n/a
+11/18/2014 01:15:36 PM | tten2csv | INFO | Shard-2/0:		n/a
+11/18/2014 01:15:36 PM | tten2csv | INFO | TOTAL Bytes:       14490 Bytes
+11/18/2014 01:15:36 PM | tten2csv | INFO | TOTAL Rows:		n/a
+11/18/2014 01:15:36 PM | tten2csv | INFO | Done.
+11/18/2014 01:15:36 PM | tten2csv | INFO | Elapsed: 00:00:17

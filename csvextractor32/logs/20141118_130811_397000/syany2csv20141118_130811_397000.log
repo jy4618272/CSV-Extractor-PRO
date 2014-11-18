@@ -1,0 +1,26 @@
+11/18/2014 01:08:11 PM | syany2csv | INFO | Counting rows in source...
+11/18/2014 01:08:12 PM | syany2csv | INFO | Starting Thread-0
+11/18/2014 01:08:12 PM | syany2csv | INFO | Starting Thread-1
+11/18/2014 01:08:12 PM | syany2csv | INFO | Starting Thread-2
+11/18/2014 01:08:12 PM | syany2csv | INFO | Thread-0 processing Shard-0
+11/18/2014 01:08:12 PM | syany2csv | INFO | Thread-1 processing Shard-1
+11/18/2014 01:08:12 PM | syany2csv | INFO | Extracting data...
+11/18/2014 01:08:12 PM | syany2csv | INFO | Thread-2 processing Shard-2
+11/18/2014 01:08:12 PM | syany2csv | INFO | Extracting data...
+11/18/2014 01:08:12 PM | syany2csv | INFO | Extracting data...
+11/18/2014 01:08:13 PM | syany2csv | INFO | Done.
+11/18/2014 01:08:13 PM | syany2csv | INFO | Done.
+11/18/2014 01:08:13 PM | syany2csv | INFO | Done.
+11/18/2014 01:08:13 PM | syany2csv | INFO | Thread-1 exit status 0
+11/18/2014 01:08:13 PM | syany2csv | INFO | Thread-2 exit status 0
+11/18/2014 01:08:13 PM | syany2csv | INFO | Thread-0 exit status 0
+11/18/2014 01:08:13 PM | syany2csv | INFO | Exiting Thread-1
+11/18/2014 01:08:13 PM | syany2csv | INFO | Exiting Thread-2
+11/18/2014 01:08:13 PM | syany2csv | INFO | Exiting Thread-0
+11/18/2014 01:08:13 PM | syany2csv | INFO | Shard-0/0:           6 rows
+11/18/2014 01:08:13 PM | syany2csv | INFO | Shard-1/0:           7 rows
+11/18/2014 01:08:13 PM | syany2csv | INFO | Shard-2/0:           8 rows
+11/18/2014 01:08:13 PM | syany2csv | INFO | TOTAL Bytes:        2142 Bytes
+11/18/2014 01:08:13 PM | syany2csv | INFO | TOTAL Rows:           21 Rows
+11/18/2014 01:08:13 PM | syany2csv | INFO | Done.
+11/18/2014 01:08:13 PM | syany2csv | INFO | Elapsed: 00:00:01

@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM (SELECT * FROM     Persons_pipe_datetime LIMIT 1000) t) p WHERE 1=2;

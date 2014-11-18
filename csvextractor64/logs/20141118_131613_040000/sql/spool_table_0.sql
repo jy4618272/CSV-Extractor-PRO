@@ -1,0 +1,1 @@
+select PersonID,LastName,FirstName,Address,City,PersonID2,LastName2,FirstName2,Address2,CreateDt from ( SELECT Item.*, ROW_NUMBER() OVER (ORDER BY PersonID)  row_number FROM (SELECT * FROM dbo.Persons_partitioned as t WHERE $Partition.DateRangeF(CreateDt)=3) as Item) as t WHERE row_number between 0 and 7

@@ -1,0 +1,1 @@
+SELECT * FROM dbo.Persons_partitioned t WHERE 1=2

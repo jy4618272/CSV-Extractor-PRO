@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM TEST.Persons_sub_partitioned PARTITION(subpart100)) p WHERE 1=2;

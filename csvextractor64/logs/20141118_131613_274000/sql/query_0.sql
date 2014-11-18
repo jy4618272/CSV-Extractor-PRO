@@ -1,0 +1,5 @@
+SELECT * FROM TEST.Persons_pipe_datetime
+INTO OUTFILE 'C:\\tmp\\dm_out\\TEST.Persons_pipe_datetime_20141118_131613_274000.data'
+FIELDS ENCLOSED BY '' TERMINATED BY '|' ESCAPED BY ''
+LINES TERMINATED BY '\r\n';
+SELECT ROW_COUNT();

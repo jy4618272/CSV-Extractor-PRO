@@ -1,0 +1,5 @@
+SELECT * FROM     Persons_pipe_datetime LIMIT 10,11
+INTO OUTFILE 'c:\\Python27\\csvextractor_1235\\CSV_OUT\\mariadb_query_20141118_131247_143000.Shard-1.data'
+FIELDS ENCLOSED BY '' TERMINATED BY '|' ESCAPED BY ''
+LINES TERMINATED BY '\r\n';
+SELECT ROW_COUNT();

@@ -1,5 +1,0 @@
-SELECT * FROM     Persons_pipe_datetime
-INTO OUTFILE 'C:\\tmp\\dm_out\\mariadb_query_20141118_130957_569000.data'
-FIELDS ENCLOSED BY '' TERMINATED BY '|' ESCAPED BY ''
-LINES TERMINATED BY '\r\n';
-SELECT ROW_COUNT();

@@ -1,1 +1,0 @@
-describe table Persons_pipe_datetime_1

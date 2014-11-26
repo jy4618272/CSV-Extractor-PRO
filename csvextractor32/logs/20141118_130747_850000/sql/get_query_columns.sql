@@ -1,1 +1,0 @@
-describe SELECT * FROM Persons_pipe_datetime_1

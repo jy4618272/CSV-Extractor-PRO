@@ -1,5 +1,0 @@
-SELECT * FROM (SELECT * FROM     Persons_pipe_datetime LIMIT 1000) t
-INTO OUTFILE 'c:\\Python27\\csvextractor_1235\\CSV_OUT\\testMYSQL_Query.data'
-FIELDS ENCLOSED BY '' TERMINATED BY '|' ESCAPED BY ''
-LINES TERMINATED BY '\r\n';
-SELECT ROW_COUNT();

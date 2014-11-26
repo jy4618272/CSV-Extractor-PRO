@@ -1,1 +1,0 @@
-select 'ROW COUNT:'||count(*) cnt from (select * from Persons_pipe_datetime_1) as t;

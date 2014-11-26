@@ -1,1 +1,0 @@
-SELECT ROWS 10 TO 20  * FROM TERRY.Persons_pipe_datetime t

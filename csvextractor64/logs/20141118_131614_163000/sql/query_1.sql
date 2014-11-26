@@ -1,5 +1,0 @@
-SELECT * FROM TEST.Persons_sub_partitioned PARTITION(subpart100) LIMIT 14,15
-INTO OUTFILE 'C:\\tmp\\dm_out\\TEST.Persons_sub_partitioned_subpart100.20141118_131614_163000.Shard-1.data'
-FIELDS ENCLOSED BY '' TERMINATED BY '|' ESCAPED BY ''
-LINES TERMINATED BY '\r\n';
-SELECT ROW_COUNT();

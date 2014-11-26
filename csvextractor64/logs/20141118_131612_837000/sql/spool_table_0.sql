@@ -1,1 +1,0 @@
-SELECT * FROM dbo.Persons_partitioned as t WHERE $Partition.DateRangeF(CreateDt)=3

@@ -1,1 +1,0 @@
-SELECT 'ROW_COUNT:'||count(*) cnt from ALL_TAB_SUBPARTITIONS where UPPER(TABLE_OWNER||'.'||TABLE_NAME)=UPPER('SCOTT.Persons_sub_partitioned') AND UPPER(subpartition_name)=UPPER('SALES_APR2000_SP1');

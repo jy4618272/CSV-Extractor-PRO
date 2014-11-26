@@ -1,1 +1,0 @@
-SELECT * FROM TEST.Persons_pipe_datetime p WHERE 1=2;

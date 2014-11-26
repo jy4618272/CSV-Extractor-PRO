@@ -1,2 +1,0 @@
-SELECT  * FROM (SELECT * FROM     Persons_pipe_datetime) t ORDER BY 1; 
-OUTPUT TO 'c:\\Python27\\csvextractor_1235\\CSV_OUT\\spool_20141118_131716_110000_sybase_query1.data' FORMAT ASCII DELIMITED BY '|' QUOTE '';

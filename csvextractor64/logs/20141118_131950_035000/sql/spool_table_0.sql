@@ -1,1 +1,0 @@
-SELECT * FROM dbo.Persons_pipe_datetime t

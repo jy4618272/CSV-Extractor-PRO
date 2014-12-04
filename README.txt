@@ -1,8 +1,6 @@
 ##
 ##csvextractor32.exe -h ALL 
 
---GENERAL INFO--
-[None]
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------

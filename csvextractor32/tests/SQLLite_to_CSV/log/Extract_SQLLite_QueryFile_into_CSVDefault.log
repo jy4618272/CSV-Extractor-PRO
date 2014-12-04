@@ -1,0 +1,49 @@
+
+c:\Python27\data_migrator_1239>Extract SQLLite table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141204_111835\csvextractor32\csvextractor32.exe -w slite2csv -o 1 -r 1 -t "|" -q c:\Python27\data_migrator_1239\test\v101\query\sqllite_query.sql -b C:\Temp\SqlLite\database.db -z "C:\Temp\SqlLite"
+slite2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141204_114642_020000\sqllite_query_20141204_114642_020000.data
+####################
+Performing data extraction.
+
+From SQL Lite:
+from db: C:\Temp\SqlLite\database.db
+query file: c:\Python27\data_migrator_1239\test\v101\query\sqllite_query.sql
+shards:	1
+
+
+
+To CSV:
+C:\tmp\dm_out\20141204_114642_020000\sqllite_query_20141204_114642_020000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 278099L, 2867)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-04 11:46:42,036 - slite2csv - INFO - Counting rows in source...
+2014-12-04 11:46:42,051 - slite2csv - INFO - Starting Thread-0
+2014-12-04 11:46:42,051 - slite2csv - INFO - Thread-0 processing Shard-0
+2014-12-04 11:46:42,051 - slite2csv - INFO - Extracting data...
+2014-12-04 11:46:42,066 - slite2csv - INFO - Done.
+2014-12-04 11:46:42,066 - slite2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:46:42,066 - slite2csv - INFO - Exiting Thread-0
+2014-12-04 11:46:42,066 - slite2csv - INFO - Shard-0/0:        2867 rows
+2014-12-04 11:46:42,066 - slite2csv - INFO - TOTAL Bytes:      278099 Bytes
+2014-12-04 11:46:42,066 - slite2csv - INFO - TOTAL Rows:         2867 Rows
+2014-12-04 11:46:42,066 - slite2csv - INFO - Done.
+2014-12-04 11:46:42,066 - slite2csv - INFO - Elapsed: 00:00:00

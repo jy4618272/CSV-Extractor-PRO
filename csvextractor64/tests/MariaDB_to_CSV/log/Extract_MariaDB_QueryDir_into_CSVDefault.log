@@ -1,0 +1,60 @@
+
+c:\Python27\data_migrator_1239>Extract MariaDB table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141204_111835\csvextractor64\csvextractor64.exe -w maria2csv -o 1 -r 1 -t "|" -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_mysql -j "root" -x "maria_pwd" -b "test" -n "localhost" -z "C:\Program Files\MariaDB 10.0\bin"
+maria2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+c:\Python27\data_migrator_1239\test\v101\query\query_dir_mysql
+CSV
+####################
+Performing data extraction.
+
+From MariaDB:
+from db: root/test/localhost
+query dir: c:\Python27\data_migrator_1239\test\v101\query\query_dir_mysql
+shards:	3
+
+To CSV:
+C:\tmp\dm_out\20141204_112704_492000\spool_20141204_112704_492000_mysql_query_0.data
+C:\tmp\dm_out\20141204_112704_492000\spool_20141204_112704_492000_mysql_query_1.data
+C:\tmp\dm_out\20141204_112704_492000\spool_20141204_112704_492000_mysql_query_2.data
+
+####################
+Are you sure you want to proceed?(y/n): Thread-0 (0, 3234L, 33)
+Thread-0 (0, 3234L, 33)
+Thread-0 (0, 3234L, 33)
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-04 11:27:04,492 - maria2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+2014-12-04 11:27:04,569 - maria2csv - INFO - Starting Thread-0
+2014-12-04 11:27:04,569 - maria2csv - INFO - Thread-0 processing Shard-0
+2014-12-04 11:27:04,569 - maria2csv - INFO - Extracting data...
+2014-12-04 11:27:04,585 - maria2csv - INFO - Done.
+2014-12-04 11:27:04,585 - maria2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:27:04,585 - maria2csv - INFO - Thread-0 processing Shard-1
+2014-12-04 11:27:04,585 - maria2csv - INFO - Extracting data...
+2014-12-04 11:27:04,601 - maria2csv - INFO - Done.
+2014-12-04 11:27:04,601 - maria2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:27:04,601 - maria2csv - INFO - Thread-0 processing Shard-2
+2014-12-04 11:27:04,601 - maria2csv - INFO - Extracting data...
+2014-12-04 11:27:04,617 - maria2csv - INFO - Done.
+2014-12-04 11:27:04,617 - maria2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:27:04,617 - maria2csv - INFO - Exiting Thread-0
+2014-12-04 11:27:04,617 - maria2csv - INFO - Shard-0/0:          33 rows
+2014-12-04 11:27:04,617 - maria2csv - INFO - Shard-1/0:          33 rows
+2014-12-04 11:27:04,617 - maria2csv - INFO - Shard-2/0:          33 rows
+2014-12-04 11:27:04,617 - maria2csv - INFO - TOTAL Bytes:        9702 Bytes
+2014-12-04 11:27:04,617 - maria2csv - INFO - TOTAL Rows:           99 Rows
+2014-12-04 11:27:04,617 - maria2csv - INFO - Done.
+2014-12-04 11:27:04,617 - maria2csv - INFO - Elapsed: 00:00:00

@@ -1,0 +1,54 @@
+
+c:\Python27\data_migrator_1239>Extract MariaDB table into CSVFile location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141204_111835\csvextractor64\csvextractor64.exe -w maria2csv -o 1 -r 1 -t "|" -q c:\Python27\data_migrator_1239\test\v101\query\mariadb_query.sql -j "root" -x "maria_pwd" -b "test" -n "localhost" -z "C:\Program Files\MariaDB 10.0\bin" -g c:\Python27\data_migrator_1239\CSV_OUT\testMARIA_QueryFile.data
+maria2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From MariaDB:
+from db: root/test/localhost
+query file: c:\Python27\data_migrator_1239\test\v101\query\mariadb_query.sql
+shards:	1
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\testMARIA_QueryFile.data
+
+####################
+Are you sure you want to proceed?(y/n):
+
+Thread-0 (1, 3234L, -1)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-04 11:30:16,026 - maria2csv - INFO - Counting rows in source...
+2014-12-04 11:30:16,042 - maria2csv - INFO - 33
+2014-12-04 11:30:16,042 - maria2csv - INFO - Done.
+2014-12-04 11:30:16,042 - maria2csv - INFO - Fetching source column names...
+2014-12-04 11:30:16,059 - maria2csv - INFO - Got 10 columns.
+2014-12-04 11:30:16,059 - maria2csv - INFO - Done.
+2014-12-04 11:30:16,059 - maria2csv - INFO - Starting Thread-0
+2014-12-04 11:30:16,059 - maria2csv - INFO - Thread-0 processing Shard-0
+2014-12-04 11:30:16,059 - maria2csv - INFO - Extracting data...
+2014-12-04 11:30:16,073 - maria2csv - ERROR - ERROR 1086 (HY000) at line 1: File 'c:\Python27\data_migrator_1239\CSV_OUT\testMARIA_QueryFile.data' already exists
+
+2014-12-04 11:30:16,073 - maria2csv - INFO - Done.
+2014-12-04 11:30:16,073 - maria2csv - INFO - Thread-0 exit status 1
+2014-12-04 11:30:16,073 - maria2csv - INFO - Exiting Thread-0
+2014-12-04 11:30:16,073 - maria2csv - INFO - Shard-0/1:		n/a
+2014-12-04 11:30:16,073 - maria2csv - INFO - TOTAL Bytes:        3234 Bytes
+2014-12-04 11:30:16,073 - maria2csv - INFO - TOTAL Rows:		n/a
+2014-12-04 11:30:16,073 - maria2csv - ERROR - Copy failed.
+2014-12-04 11:30:16,073 - maria2csv - INFO - Elapsed: 00:00:00

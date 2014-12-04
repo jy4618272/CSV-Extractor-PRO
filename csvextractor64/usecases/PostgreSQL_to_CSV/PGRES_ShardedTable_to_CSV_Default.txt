@@ -1,0 +1,29 @@
+Use case name: PostgreSQL_ShardedTable
+Description:  Break input table1 into 3 logical shards (-r[--num_of_shards] 3) 
+  and run extract process on each shard in thread pool (-o[--pool_size] 3).
+  Extract PostgreSQL table1 into CSV Default location.
+Arguments:
+  -w[--copy_vector] is "Data copy direction."
+  -o[--pool_size] is "Pool size."
+  -r[--num_of_shards] is "Number of shards."
+  -t[--field_term] is "Field terminator."
+  -c[--from_table] is "From table."
+  -j[--from_user] is "PostgreSQL source user."
+  -x[--from_passwd] is "PostgreSQL source user password."
+  -b[--from_db_name] is "PostgreSQL source database."
+  -n[--from_db_server] is "PostgreSQL source instance name."
+  -z[--source_client_home] is "Path to PostgreSQL client home."
+  -R[--source_port] is "Connection port for source PostgreSQL."	
+Example: 
+  echo y|c:\Python27\csvextractor_dist_64\20141204_111835\csvextractor64\csvextractor64.exe ^
+  -w pgres2csv ^
+  -o 3 ^
+  -r 3 ^
+  -t "|" ^
+  -c Persons_partitioned ^
+  -j "postgres" ^
+  -x "postgre_pwd" ^
+  -b "postgres" ^
+  -n "localhost" ^
+  -z "C:\Program Files\PostgreSQL\9.4\bin" ^
+  -R 5434

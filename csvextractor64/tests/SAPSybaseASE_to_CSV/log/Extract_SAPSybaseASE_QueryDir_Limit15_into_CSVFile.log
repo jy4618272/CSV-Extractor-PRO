@@ -1,0 +1,22 @@
+
+c:\Python27\data_migrator_1239>Extract only 15 rows from SAPSybaseASE table into CSVFile location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141204_111835\csvextractor64\csvextractor64.exe -w syase2csv -o 1 -r 1 -t "|" -l 15 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_sy -j "dba" -x "sql" -b "demo" -n "demo16" -z "C:\Program Files\SQL Anywhere 16\Bin64" -g c:\Python27\data_migrator_1239\CSV_OUT\testSYASE_QueryDir_Limit15.data
+syase2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+c:\Python27\data_migrator_1239\test\v101\query\query_dir_sy
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-04 11:30:08,954 - syase2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+Traceback (most recent call last):
+File "<string>", line 189, in <module>
+AssertionError: Cannot export to file if num_of_shards>1
+Use "-D" (-to_dir) instead

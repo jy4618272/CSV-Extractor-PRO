@@ -1,0 +1,50 @@
+
+c:\Python27\data_migrator_1239>Extract PostgreSQL table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141204_111835\csvextractor64\csvextractor64.exe -w pgres2csv -o 1 -r 1 -t "|" -q c:\Python27\data_migrator_1239\test\v101\query\postgre_query.sql -j "postgres" -x "postgre_pwd" -b "postgres" -n "localhost" -z "C:\Program Files\PostgreSQL\9.4\bin" -R 5434
+pgres2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141204_112426_708000\postgre_query_20141204_112426_708000.data
+####################
+Performing data extraction.
+
+From PostgreSQL:
+from db: postgres/postgres/localhost
+query: c:\Python27\data_migrator_1239\test\v101\query\postgre_query.sql
+shards:	1
+
+
+To CSV:
+C:\tmp\dm_out\20141204_112426_708000\postgre_query_20141204_112426_708000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+20
+20
+Thread-0 (0, 2109L, 20)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-04 11:24:26,723 - pgres2csv - INFO - Counting rows in source...
+2014-12-04 11:24:26,753 - pgres2csv - INFO - Starting Thread-0
+2014-12-04 11:24:26,753 - pgres2csv - INFO - Thread-0 processing Shard-0
+2014-12-04 11:24:26,753 - pgres2csv - INFO - Extracting data...
+2014-12-04 11:24:26,786 - pgres2csv - INFO - Done.
+2014-12-04 11:24:26,786 - pgres2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:24:26,786 - pgres2csv - INFO - Exiting Thread-0
+2014-12-04 11:24:26,786 - pgres2csv - INFO - Shard-0/0:          20 rows
+2014-12-04 11:24:26,786 - pgres2csv - INFO - TOTAL Bytes:        2109 Bytes
+2014-12-04 11:24:26,786 - pgres2csv - INFO - TOTAL Rows:           20 Rows
+2014-12-04 11:24:26,786 - pgres2csv - INFO - Done.
+2014-12-04 11:24:26,786 - pgres2csv - INFO - Elapsed: 00:00:00

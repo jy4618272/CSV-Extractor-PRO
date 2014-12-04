@@ -1,0 +1,61 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141204_111835\csvextractor32\csvextractor32.exe -w tten2csv -o 3 -r 3 -t "|" -c TERRY.Persons_pipe_datetime -j TERRY -x secret -b my_ttdb -e "YYYY-MM-DD" -m "YYYY-MM-DD HH24.MI.SS.FF" -z "C:\Program Files (x86)\TimesTen\tt1122_64\bin"
+tten2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From TimesTen:
+from db: TERRY@my_ttdb
+table: TERRY.Persons_pipe_datetime
+shards:	3
+
+
+To CSV:
+C:\tmp\dm_out\20141204_114523_148000\TERRY.Persons_pipe_datetime_20141204_114523_148000.Shard-0.data
+C:\tmp\dm_out\20141204_114523_148000\TERRY.Persons_pipe_datetime_20141204_114523_148000.Shard-1.data
+C:\tmp\dm_out\20141204_114523_148000\TERRY.Persons_pipe_datetime_20141204_114523_148000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-1 (0, 0L, -1)
+Thread-2 (0, 0L, -1)
+Thread-0 (0, 0L, -1)
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-12-04 11:45:23,164 - tten2csv - INFO - Counting rows in source...
+2014-12-04 11:45:26,759 - tten2csv - INFO - Starting Thread-0
+2014-12-04 11:45:26,759 - tten2csv - INFO - Starting Thread-1
+2014-12-04 11:45:26,759 - tten2csv - INFO - Starting Thread-2
+2014-12-04 11:45:26,759 - tten2csv - INFO - Thread-0 processing Shard-0
+2014-12-04 11:45:26,759 - tten2csv - INFO - Thread-1 processing Shard-1
+2014-12-04 11:45:26,759 - tten2csv - INFO - Thread-2 processing Shard-2
+2014-12-04 11:45:26,759 - tten2csv - INFO - Extracting data...
+2014-12-04 11:45:26,759 - tten2csv - INFO - Extracting data...
+2014-12-04 11:45:26,759 - tten2csv - INFO - Extracting data...
+2014-12-04 11:45:28,696 - tten2csv - INFO - Done.
+2014-12-04 11:45:28,696 - tten2csv - INFO - Thread-1 exit status 0
+2014-12-04 11:45:28,696 - tten2csv - INFO - Exiting Thread-1
+2014-12-04 11:45:30,463 - tten2csv - INFO - Done.
+2014-12-04 11:45:30,463 - tten2csv - INFO - Thread-2 exit status 0
+2014-12-04 11:45:30,463 - tten2csv - INFO - Exiting Thread-2
+2014-12-04 11:45:33,539 - tten2csv - INFO - Done.
+2014-12-04 11:45:33,539 - tten2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:45:33,539 - tten2csv - INFO - Exiting Thread-0
+2014-12-04 11:45:33,539 - tten2csv - INFO - Shard-0/0:		n/a
+2014-12-04 11:45:33,539 - tten2csv - INFO - Shard-1/0:		n/a
+2014-12-04 11:45:33,539 - tten2csv - INFO - Shard-2/0:		n/a
+2014-12-04 11:45:33,539 - tten2csv - INFO - TOTAL Bytes:           0 Bytes
+2014-12-04 11:45:33,539 - tten2csv - INFO - TOTAL Rows:		n/a
+2014-12-04 11:45:33,539 - tten2csv - INFO - Done.
+2014-12-04 11:45:33,539 - tten2csv - INFO - Elapsed: 00:00:10

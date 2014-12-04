@@ -1,0 +1,89 @@
+
+c:\Python27\data_migrator_1239>Extract only 55 rows from InformixIDS table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141204_111835\csvextractor32\csvextractor32.exe -w infor2csv -o 3 -r 3 -t "|" -l 55 -q c:\Python27\data_migrator_1239\test\v101\query\informix_query.sql -j "informix" -x "test_pwd" -b "test" -n "ol_s_112614_175026" -z "C:\Program Files (x86)\IBM Informix Software Bundle\bin"
+infor2csv
+[None]
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor PRO (v1.23.9, beta, 2014/12/04 11:18:35) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From Informix IDS:
+from db: informix/test/ol_s_112614_175026
+query file: c:\Python27\data_migrator_1239\test\v101\query\informix_query.sql
+shards:	3
+
+
+To CSV:
+C:\tmp\dm_out\20141204_113852_607000\informix_query_20141204_113852_607000.Shard-0.data
+C:\tmp\dm_out\20141204_113852_607000\informix_query_20141204_113852_607000.Shard-1.data
+C:\tmp\dm_out\20141204_113852_607000\informix_query_20141204_113852_607000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~4\20C052~1\CSVEXT~1\logs\20141204_113852_607000\sql\get_query_columns_20141204_113852.sql
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~4\20C052~1\CSVEXT~1\logs\20141204_113852_607000\sql\get_query_columns_20141204_113852.sql
+Thread-2 (0, 1862L, 19)
+Thread-0 (0, 1666L, Thread-117 )(
+0, 1666L, 17)
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-04 11:38:52,621 - infor2csv - INFO - Counting rows in source...
+2014-12-04 11:38:52,654 - infor2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-04 11:38:52,654 - infor2csv - INFO - Fetching query columns.
+2014-12-04 11:38:52,700 - infor2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-04 11:38:52,700 - infor2csv - INFO - Got 10 columns.
+2014-12-04 11:38:52,700 - infor2csv - INFO - Starting Thread-0
+2014-12-04 11:38:52,700 - infor2csv - INFO - Starting Thread-1
+2014-12-04 11:38:52,700 - infor2csv - INFO - Starting Thread-2
+2014-12-04 11:38:52,700 - infor2csv - INFO - Thread-1 processing Shard-0
+2014-12-04 11:38:52,700 - infor2csv - INFO - Thread-0 processing Shard-1
+2014-12-04 11:38:52,700 - infor2csv - INFO - Thread-2 processing Shard-2
+2014-12-04 11:38:52,700 - infor2csv - INFO - Extracting data...
+2014-12-04 11:38:52,700 - infor2csv - INFO - Extracting data...
+2014-12-04 11:38:52,700 - infor2csv - INFO - Extracting data...
+2014-12-04 11:38:53,154 - infor2csv - INFO - Done.
+2014-12-04 11:38:53,154 - infor2csv - INFO - Thread-2 exit status 0
+2014-12-04 11:38:53,154 - infor2csv - INFO - Done.
+2014-12-04 11:38:53,154 - infor2csv - INFO - Done.
+2014-12-04 11:38:53,154 - infor2csv - INFO - Exiting Thread-2
+2014-12-04 11:38:53,154 - infor2csv - INFO - Thread-0 exit status 0
+2014-12-04 11:38:53,154 - infor2csv - INFO - Thread-1 exit status 0
+2014-12-04 11:38:53,154 - infor2csv - INFO - Exiting Thread-0
+2014-12-04 11:38:53,154 - infor2csv - INFO - Exiting Thread-1
+2014-12-04 11:38:53,154 - infor2csv - INFO - Shard-0/0:          17 rows
+2014-12-04 11:38:53,154 - infor2csv - INFO - Shard-1/0:          17 rows
+2014-12-04 11:38:53,154 - infor2csv - INFO - Shard-2/0:          19 rows
+2014-12-04 11:38:53,154 - infor2csv - INFO - TOTAL Bytes:        5194 Bytes
+2014-12-04 11:38:53,154 - infor2csv - INFO - TOTAL Rows:           53 Rows
+2014-12-04 11:38:53,154 - infor2csv - INFO - Done.
+2014-12-04 11:38:53,154 - infor2csv - INFO - Elapsed: 00:00:00

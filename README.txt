@@ -9,7 +9,7 @@ Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
 
---USE CASES--
+--USE CASES-- 
 
 1. DB2AdvancedEnterpriseServer_to_CSV. 37 use cases.
 2. MySQL_to_CSV. 37 use cases.

@@ -1,7 +1,7 @@
 ##
 ##csvextractor64.exe -h FEAT 
 ##
-[None]
+
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------

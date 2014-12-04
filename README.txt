@@ -10,7 +10,7 @@ Agreement: Use this tool at your own risk. Author is not liable for any damages 
 ----------------------------------------------------------------------
 
 --USE CASES-- 
-
+ 
 1. DB2AdvancedEnterpriseServer_to_CSV. 37 use cases.
 2. MySQL_to_CSV. 37 use cases.
 3. SAPSybaseASE_to_CSV. 25 use cases.

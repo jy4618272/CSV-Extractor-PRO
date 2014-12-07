@@ -1,0 +1,21 @@
+
+c:\Python27\data_migrator_1239>Extract only 10 rows from Exadata table into CSVFile location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141201_215140\csvextractor32\csvextractor32.exe -w exad2csv -o 1 -r 1 -t "|" -l 10 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -g c:\Python27\data_migrator_1239\CSV_OUT\testEXAD_QueryDir_Limit10.data
+exad2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Exadata (v1.23.9, beta, 2014/12/01 21:51:40) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-01 21:52:33,275 - exad2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+Traceback (most recent call last):
+File "<string>", line 189, in <module>
+AssertionError: Cannot export to file if num_of_shards>1
+Use "-D" (-to_dir) instead

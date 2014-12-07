@@ -1,0 +1,17 @@
+##
+##csvextractor32.exe -h 
+##
+['CSV']
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Infobright (v1.23.9, beta, 2014/12/04 16:21:34) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+For detailed help use one of the options:
+
+From CSV:
+
+	To Infobright          : csvextractor32.exe -h csv2infob
+

@@ -1,0 +1,48 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141203_210522\csvextractor32\csvextractor32.exe -w maria2csv -o 1 -r 1 -t "|" -c TEST.Persons_pipe_datetime -j "root" -x "maria_pwd" -b "test" -n "localhost" -z "C:\Program Files\MariaDB 10.0\bin" -D c:\Python27\data_migrator_1239\CSV_OUT
+maria2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for MariaDB (v1.23.9, beta, 2014/12/03 21:05:22) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From MariaDB:
+from db: root/test/localhost
+table: TEST.Persons_pipe_datetime
+shards:	1
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\TEST.Persons_pipe_datetime_20141203_210542_623000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 3234L, 33)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-03 21:05:42,638 - maria2csv - INFO - Fetching table info...
+2014-12-03 21:05:42,654 - maria2csv - INFO - Done.
+2014-12-03 21:05:42,654 - maria2csv - INFO - Counting rows in source...
+2014-12-03 21:05:42,684 - maria2csv - INFO - 33
+2014-12-03 21:05:42,684 - maria2csv - INFO - Done.
+2014-12-03 21:05:42,684 - maria2csv - INFO - Fetching source column names...
+2014-12-03 21:05:42,716 - maria2csv - INFO - Got 10 columns.
+2014-12-03 21:05:42,716 - maria2csv - INFO - Done.
+2014-12-03 21:05:42,716 - maria2csv - INFO - Starting Thread-0
+2014-12-03 21:05:42,716 - maria2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 21:05:42,716 - maria2csv - INFO - Extracting data...
+2014-12-03 21:05:42,732 - maria2csv - INFO - Done.
+2014-12-03 21:05:42,732 - maria2csv - INFO - Thread-0 exit status 0
+2014-12-03 21:05:42,732 - maria2csv - INFO - Exiting Thread-0
+2014-12-03 21:05:42,732 - maria2csv - INFO - Shard-0/0:          33 rows
+2014-12-03 21:05:42,732 - maria2csv - INFO - TOTAL Bytes:        3234 Bytes
+2014-12-03 21:05:42,732 - maria2csv - INFO - TOTAL Rows:           33 Rows
+2014-12-03 21:05:42,732 - maria2csv - INFO - Done.
+2014-12-03 21:05:42,732 - maria2csv - INFO - Elapsed: 00:00:00

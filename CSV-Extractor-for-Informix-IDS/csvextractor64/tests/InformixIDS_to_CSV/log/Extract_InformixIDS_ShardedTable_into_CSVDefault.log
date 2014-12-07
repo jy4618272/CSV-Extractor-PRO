@@ -1,0 +1,81 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141202_104444\csvextractor64\csvextractor64.exe -w infor2csv -o 3 -r 3 -t "|" -c Persons_pipe_datetime_1 -j "informix" -x "test_pwd" -b "test" -n "ol_s_112614_175026" -z "C:\Program Files (x86)\IBM Informix Software Bundle\bin"
+infor2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Informix IDS (v1.23.9, beta, 2014/12/02 10:44:44) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From Informix IDS:
+from db: informix/test/ol_s_112614_175026
+table: Persons_pipe_datetime_1
+shards:	3
+
+
+To CSV:
+C:\tmp\dm_out\20141202_104449_344000\Persons_pipe_datetime_1_20141202_104449_344000.Shard-0.data
+C:\tmp\dm_out\20141202_104449_344000\Persons_pipe_datetime_1_20141202_104449_344000.Shard-1.data
+C:\tmp\dm_out\20141202_104449_344000\Persons_pipe_datetime_1_20141202_104449_344000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~3\209EE6~1\CSVEXT~1\logs\20141202_104449_344000\sql\get_query_columns_20141202_104449.sql
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~3\209EE6~1\CSVEXT~1\logs\20141202_104449_344000\sql\get_query_columns_20141202_104449.sql
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-12-02 10:44:49,354 - infor2csv - INFO - Counting rows in source...
+2014-12-02 10:44:49,385 - infor2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-02 10:44:49,385 - infor2csv - INFO - Fetching query columns.
+2014-12-02 10:44:49,407 - infor2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-02 10:44:49,407 - infor2csv - INFO - Got 10 columns.
+2014-12-02 10:44:49,408 - infor2csv - INFO - Starting Thread-0
+2014-12-02 10:44:49,408 - infor2csv - INFO - Starting Thread-1
+2014-12-02 10:44:49,408 - infor2csv - INFO - Starting Thread-2
+2014-12-02 10:44:49,410 - infor2csv - INFO - Thread-0 processing Shard-0
+2014-12-02 10:44:49,410 - infor2csv - INFO - Thread-1 processing Shard-1
+2014-12-02 10:44:49,410 - infor2csv - INFO - Thread-2 processing Shard-2
+2014-12-02 10:44:49,410 - infor2csv - INFO - Extracting data...
+2014-12-02 10:44:49,410 - infor2csv - INFO - Extracting data...
+2014-12-02 10:44:49,410 - infor2csv - INFO - Extracting data...
+2014-12-02 10:44:49,444 - infor2csv - INFO - Done.
+2014-12-02 10:44:49,446 - infor2csv - INFO - Thread-2 exit status 0
+2014-12-02 10:44:49,446 - infor2csv - INFO - Done.
+2014-12-02 10:44:49,446 - infor2csv - INFO - Exiting Thread-2
+2014-12-02 10:44:49,446 - infor2csv - INFO - Done.
+2014-12-02 10:44:49,446 - infor2csv - INFO - Thread-1 exit status 0
+2014-12-02 10:44:49,446 - infor2csv - INFO - Thread-0 exit status 0
+2014-12-02 10:44:49,446 - infor2csv - INFO - Exiting Thread-1
+2014-12-02 10:44:49,447 - infor2csv - INFO - Exiting Thread-0
+2014-12-02 10:44:49,447 - infor2csv - INFO - Shard-0/0:          23 rows
+2014-12-02 10:44:49,447 - infor2csv - INFO - Shard-1/0:          23 rows
+2014-12-02 10:44:49,447 - infor2csv - INFO - Shard-2/0:          24 rows
+2014-12-02 10:44:49,447 - infor2csv - INFO - TOTAL Bytes:        6860 Bytes
+2014-12-02 10:44:49,447 - infor2csv - INFO - TOTAL Rows:           70 Rows
+2014-12-02 10:44:49,447 - infor2csv - INFO - Done.
+2014-12-02 10:44:49,447 - infor2csv - INFO - Elapsed: 00:00:00

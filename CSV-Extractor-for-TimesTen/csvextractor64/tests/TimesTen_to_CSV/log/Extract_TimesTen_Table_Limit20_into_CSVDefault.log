@@ -1,0 +1,43 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141202_144557\csvextractor64\csvextractor64.exe -w tten2csv -o 1 -r 1 -t "|" -l 20 -c TERRY.Persons_pipe_datetime -j TERRY -x secret -b my_ttdb -e "YYYY-MM-DD" -m "YYYY-MM-DD HH24.MI.SS.FF" -z "C:\Program Files (x86)\TimesTen\tt1122_64\bin"
+tten2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for TimesTen (v1.23.9, beta, 2014/12/02 14:45:57) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141202_144648_871000\TERRY.Persons_pipe_datetime_20141202_144648_871000.data
+####################
+Performing data extraction.
+
+From TimesTen:
+from db: TERRY@my_ttdb
+table: TERRY.Persons_pipe_datetime
+shards:	1
+
+
+To CSV:
+C:\tmp\dm_out\20141202_144648_871000\TERRY.Persons_pipe_datetime_20141202_144648_871000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 1995L, -1)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-02 14:46:48,880 - tten2csv - INFO - Counting rows in source...
+2014-12-02 14:46:52,709 - tten2csv - INFO - Starting Thread-0
+2014-12-02 14:46:52,709 - tten2csv - INFO - Thread-0 processing Shard-0
+2014-12-02 14:46:52,710 - tten2csv - INFO - Extracting data...
+2014-12-02 14:46:54,776 - tten2csv - INFO - Done.
+2014-12-02 14:46:54,778 - tten2csv - INFO - Thread-0 exit status 0
+2014-12-02 14:46:54,778 - tten2csv - INFO - Exiting Thread-0
+2014-12-02 14:46:54,778 - tten2csv - INFO - Shard-0/0:		n/a
+2014-12-02 14:46:54,778 - tten2csv - INFO - TOTAL Bytes:        1995 Bytes
+2014-12-02 14:46:54,778 - tten2csv - INFO - TOTAL Rows:		n/a
+2014-12-02 14:46:54,778 - tten2csv - INFO - Done.
+2014-12-02 14:46:54,778 - tten2csv - INFO - Elapsed: 00:00:05

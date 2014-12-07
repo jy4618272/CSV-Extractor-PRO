@@ -1,0 +1,21 @@
+
+C:\Python27\data_migrator_1239>Extract only 12 rows from PostgreSQL table into CSVFile location.
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_64\20141203_125843\csvextractor64\csvextractor64.exe -w pgres2csv -o 1 -r 1 -t "|" -l 12 -Q C:\Python27\data_migrator_1239\test\v101\query\query_dir_pgres -j "postgres" -x "postgre_pwd" -b "postgres" -n "localhost" -z "C:\Program Files\PostgreSQL\9.4\bin" -R 5434 -g C:\Python27\data_migrator_1239\CSV_OUT\testPGRES_QueryDir_Limit12.data
+pgres2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for PostgreSQL (v1.23.9, beta, 2014/12/03 12:58:43) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+C:\Python27\data_migrator_1239\test\v101\query\query_dir_pgres
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-03 12:58:52,099 - pgres2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+Traceback (most recent call last):
+File "<string>", line 189, in <module>
+AssertionError: Cannot export to file if num_of_shards>1
+Use "-D" (-to_dir) instead

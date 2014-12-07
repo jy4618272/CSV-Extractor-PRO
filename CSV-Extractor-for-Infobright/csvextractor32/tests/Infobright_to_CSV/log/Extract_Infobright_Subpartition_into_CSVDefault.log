@@ -1,0 +1,67 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141203_202837\csvextractor32\csvextractor32.exe -w infob2csv -o 1 -r 1 -t "|" -c TEST.Persons_sub_partitioned -S subpart100 -j "alex" -x "mysql_pwd" -b "test" -n "localhost" -z "C:\Temp\mysql\bin"
+infob2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Infobright (v1.23.9, beta, 2014/12/03 20:28:37) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141203_202908_229000\TEST.Persons_sub_partitioned_subpart100.20141203_202908_229000.data
+####################
+Performing data extraction.
+
+From Infobright:
+from db: alex/test/localhost
+table: TEST.Persons_sub_partitioned
+sub-partition: subpart100
+shards:	1
+
+To CSV:
+C:\tmp\dm_out\20141203_202908_229000\TEST.Persons_sub_partitioned_subpart100.20141203_202908_229000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 4410L, 45)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-03 20:29:08,243 - infob2csv - INFO - Fetching table info...
+2014-12-03 20:29:08,259 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,259 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,259 - infob2csv - INFO - Done.
+2014-12-03 20:29:08,276 - infob2csv - INFO - Verifying partition...
+2014-12-03 20:29:08,290 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,290 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,290 - infob2csv - INFO - Check OK. Partition "subpart100" exists in table "TEST.Persons_sub_partitioned".
+2014-12-03 20:29:08,290 - infob2csv - INFO - Counting rows in source...
+2014-12-03 20:29:08,322 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,322 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,322 - infob2csv - INFO - 45
+2014-12-03 20:29:08,322 - infob2csv - INFO - Fetching source column names...
+2014-12-03 20:29:08,354 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,354 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:29:08,354 - infob2csv - INFO - Got 10 columns.
+2014-12-03 20:29:08,354 - infob2csv - INFO - Done.
+2014-12-03 20:29:08,354 - infob2csv - INFO - Starting Thread-0
+2014-12-03 20:29:08,354 - infob2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 20:29:08,354 - infob2csv - INFO - Extracting data...
+2014-12-03 20:29:08,368 - infob2csv - INFO - Done.
+2014-12-03 20:29:08,368 - infob2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:29:08,368 - infob2csv - INFO - Exiting Thread-0
+2014-12-03 20:29:08,368 - infob2csv - INFO - Shard-0/0:          45 rows
+2014-12-03 20:29:08,368 - infob2csv - INFO - TOTAL Bytes:        4410 Bytes
+2014-12-03 20:29:08,368 - infob2csv - INFO - TOTAL Rows:           45 Rows
+2014-12-03 20:29:08,368 - infob2csv - INFO - Done.
+2014-12-03 20:29:08,368 - infob2csv - INFO - Elapsed: 00:00:00

@@ -1,0 +1,51 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141203_210522\csvextractor64\csvextractor64.exe -w maria2csv -o 1 -r 1 -t "|" -c TEST.Persons_sub_partitioned -S subpart100 -j "root" -x "maria_pwd" -b "test" -n "localhost" -z "C:\Program Files\MariaDB 10.0\bin"
+maria2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for MariaDB (v1.23.9, beta, 2014/12/03 21:05:22) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141203_210527_216000\TEST.Persons_sub_partitioned_subpart100.20141203_210527_216000.data
+####################
+Performing data extraction.
+
+From MariaDB:
+from db: root/test/localhost
+table: TEST.Persons_sub_partitioned
+sub-partition: subpart100
+shards:	1
+
+To CSV:
+C:\tmp\dm_out\20141203_210527_216000\TEST.Persons_sub_partitioned_subpart100.20141203_210527_216000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 4606L, 47)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-03 21:05:27,217 - maria2csv - INFO - Fetching table info...
+2014-12-03 21:05:27,249 - maria2csv - INFO - Done.
+2014-12-03 21:05:27,249 - maria2csv - INFO - Verifying partition...
+2014-12-03 21:05:27,263 - maria2csv - INFO - Check OK. Partition "subpart100" exists in table "TEST.Persons_sub_partitioned".
+2014-12-03 21:05:27,263 - maria2csv - INFO - Counting rows in source...
+2014-12-03 21:05:27,279 - maria2csv - INFO - 47
+2014-12-03 21:05:27,279 - maria2csv - INFO - Fetching source column names...
+2014-12-03 21:05:27,296 - maria2csv - INFO - Got 10 columns.
+2014-12-03 21:05:27,296 - maria2csv - INFO - Done.
+2014-12-03 21:05:27,296 - maria2csv - INFO - Starting Thread-0
+2014-12-03 21:05:27,296 - maria2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 21:05:27,296 - maria2csv - INFO - Extracting data...
+2014-12-03 21:05:27,311 - maria2csv - INFO - Done.
+2014-12-03 21:05:27,311 - maria2csv - INFO - Thread-0 exit status 0
+2014-12-03 21:05:27,311 - maria2csv - INFO - Exiting Thread-0
+2014-12-03 21:05:27,311 - maria2csv - INFO - Shard-0/0:          47 rows
+2014-12-03 21:05:27,311 - maria2csv - INFO - TOTAL Bytes:        4606 Bytes
+2014-12-03 21:05:27,311 - maria2csv - INFO - TOTAL Rows:           47 Rows
+2014-12-03 21:05:27,311 - maria2csv - INFO - Done.
+2014-12-03 21:05:27,311 - maria2csv - INFO - Elapsed: 00:00:00

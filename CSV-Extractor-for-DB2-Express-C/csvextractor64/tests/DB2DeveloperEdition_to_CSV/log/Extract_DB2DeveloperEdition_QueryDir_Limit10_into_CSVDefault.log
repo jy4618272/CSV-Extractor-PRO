@@ -1,0 +1,58 @@
+
+c:\Python27\data_migrator_1239>Extract only 10 rows from DB2DeveloperEdition table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141201_214113\csvextractor64\csvextractor64.exe -w dbtde2csv -o 1 -r 1 -t "|" -l 10 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_db2 -j "ALEX_BUZ" -x "198Morgan" -b "SAMPLE" -n "DB2" -z "C:\Program Files (x86)\IBM\SQLLIB_01\BIN"
+dbtde2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for DB2 Developer Edition (v1.23.9, beta, 2014/12/01 21:41:13) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+c:\Python27\data_migrator_1239\test\v101\query\query_dir_db2
+CSV
+####################
+Performing data extraction.
+
+From DB2 Developer Edition:
+from db: ALEX_BUZ/SAMPLE/DB2
+query dir: c:\Python27\data_migrator_1239\test\v101\query\query_dir_db2
+shards:	3
+
+
+To CSV:
+C:\tmp\dm_out\20141201_214157_427000\spool_20141201_214157_427000_db2_query.data
+C:\tmp\dm_out\20141201_214157_427000\spool_20141201_214157_427000_db2_query1.data
+C:\tmp\dm_out\20141201_214157_427000\spool_20141201_214157_427000_db2_query2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-01 21:41:57,427 - dbtde2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+2014-12-01 21:41:57,437 - dbtde2csv - INFO - Starting Thread-0
+2014-12-01 21:41:57,438 - dbtde2csv - INFO - Thread-0 processing Shard-0
+2014-12-01 21:41:57,438 - dbtde2csv - INFO - Extracting data...
+2014-12-01 21:41:58,532 - dbtde2csv - INFO - Done.
+2014-12-01 21:41:58,532 - dbtde2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:41:58,532 - dbtde2csv - INFO - Thread-0 processing Shard-1
+2014-12-01 21:41:58,532 - dbtde2csv - INFO - Extracting data...
+2014-12-01 21:41:59,605 - dbtde2csv - INFO - Done.
+2014-12-01 21:41:59,605 - dbtde2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:41:59,605 - dbtde2csv - INFO - Thread-0 processing Shard-2
+2014-12-01 21:41:59,605 - dbtde2csv - INFO - Extracting data...
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Done.
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Exiting Thread-0
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Shard-0/0:          10 rows
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Shard-1/0:          10 rows
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Shard-2/0:          10 rows
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - TOTAL Bytes:        3150 Bytes
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - TOTAL Rows:           30 Rows
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Done.
+2014-12-01 21:42:00,680 - dbtde2csv - INFO - Elapsed: 00:00:03

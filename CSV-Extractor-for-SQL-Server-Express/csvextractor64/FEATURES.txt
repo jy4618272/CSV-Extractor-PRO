@@ -1,0 +1,12 @@
+##
+##csvextractor64.exe -h FEAT 
+##
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SQL Server Express (v1.23.9, beta, 2014/12/03 12:06:37) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+	1. Extract table data from "SQL Server Express" to "CSV file"
+	2. Load data from "CSV file" to "SQL Server Express"

@@ -1,0 +1,46 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141203_120432\csvextractor32\csvextractor32.exe -w ssent2csv -o 1 -r 1 -t "|" -l 20 -c dbo.Persons_partitioned -P DateRangeF(CreateDt)=3 -j sa -x ssent_pwd -b test -n ALEX_BUZ-PC\MSSQLSERVER_ENT -z "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn"
+ssent2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SQL Server Enterprise (v1.23.9, beta, 2014/12/03 12:04:32) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141203_120457_830000\dbo.Persons_partitioned_DateRangeF_CreateDt_=3.20141203_120457_830000.data
+####################
+Performing data extraction.
+
+From SQL Server Enterprise:
+from db: sa/test/ALEX_BUZ-PC\MSSQLSERVER_ENT
+table: dbo.Persons_partitioned
+partition: DateRangeF(CreateDt)=3
+shards:	1
+
+
+To CSV:
+C:\tmp\dm_out\20141203_120457_830000\dbo.Persons_partitioned_DateRangeF_CreateDt_=3.20141203_120457_830000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 2039L, 20)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-03 12:04:57,839 - ssent2csv - INFO - Counting rows in source...
+2014-12-03 12:04:57,903 - ssent2csv - INFO - Fetching table columns...
+2014-12-03 12:04:57,963 - ssent2csv - INFO - Done.
+2014-12-03 12:04:57,964 - ssent2csv - INFO - Starting Thread-0
+2014-12-03 12:04:57,964 - ssent2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 12:04:57,964 - ssent2csv - INFO - Extracting data...
+2014-12-03 12:04:58,013 - ssent2csv - INFO - Done.
+2014-12-03 12:04:58,013 - ssent2csv - INFO - Thread-0 exit status 0
+2014-12-03 12:04:58,013 - ssent2csv - INFO - Exiting Thread-0
+2014-12-03 12:04:58,013 - ssent2csv - INFO - Shard-0/0:          20 rows
+2014-12-03 12:04:58,013 - ssent2csv - INFO - TOTAL Bytes:        2039 Bytes
+2014-12-03 12:04:58,013 - ssent2csv - INFO - TOTAL Rows:           20 Rows
+2014-12-03 12:04:58,013 - ssent2csv - INFO - Done.
+2014-12-03 12:04:58,013 - ssent2csv - INFO - Elapsed: 00:00:00

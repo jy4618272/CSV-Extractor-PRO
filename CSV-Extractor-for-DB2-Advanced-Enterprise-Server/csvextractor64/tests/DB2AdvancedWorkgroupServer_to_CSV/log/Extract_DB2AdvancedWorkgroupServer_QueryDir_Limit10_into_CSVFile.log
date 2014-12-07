@@ -1,0 +1,21 @@
+
+c:\Python27\data_migrator_1239>Extract only 10 rows from DB2AdvancedWorkgroupServer table into CSVFile location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141201_205742\csvextractor64\csvextractor64.exe -w dbtaws2csv -o 1 -r 1 -t "|" -l 10 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_db2 -j "ALEX_BUZ" -x "198Morgan" -b "SAMPLE" -n "DB2" -z "C:\Program Files (x86)\IBM\SQLLIB_01\BIN" -g c:\Python27\data_migrator_1239\CSV_OUT\testDBTAWS_QueryDir_Limit10.data
+dbtaws2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for DB2 Advanced Workgroup Server (v1.23.9, beta, 2014/12/01 20:57:42) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+c:\Python27\data_migrator_1239\test\v101\query\query_dir_db2
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-01 20:58:54,650 - dbtaws2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+Traceback (most recent call last):
+File "<string>", line 189, in <module>
+AssertionError: Cannot export to file if num_of_shards>1
+Use "-D" (-to_dir) instead

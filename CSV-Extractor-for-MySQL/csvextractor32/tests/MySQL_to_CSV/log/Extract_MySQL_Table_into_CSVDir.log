@@ -1,0 +1,60 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141203_202135\csvextractor32\csvextractor32.exe -w mysql2csv -o 1 -r 1 -t "|" -c TEST.Persons_pipe_datetime -j "alex" -x "mysql_pwd" -b "test" -n "localhost" -z "C:\Temp\mysql\bin" -D C:\Python27\data_migrator_1239\CSV_OUT
+mysql2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for MySQL (v1.23.9, beta, 2014/12/03 20:21:35) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From MySQL:
+from db: alex/test/localhost
+table: TEST.Persons_pipe_datetime
+shards:	1
+
+To CSV:
+C:\Python27\data_migrator_1239\CSV_OUT\TEST.Persons_pipe_datetime_20141203_202219_654000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 35358302L, 360799)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-03 20:22:19,670 - mysql2csv - INFO - Fetching table info...
+2014-12-03 20:22:19,700 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:22:19,700 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:22:19,700 - mysql2csv - INFO - Done.
+2014-12-03 20:22:19,700 - mysql2csv - INFO - Counting rows in source...
+2014-12-03 20:22:20,232 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:22:20,232 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:22:20,232 - mysql2csv - INFO - 360799
+2014-12-03 20:22:20,232 - mysql2csv - INFO - Done.
+2014-12-03 20:22:20,232 - mysql2csv - INFO - Fetching source column names...
+2014-12-03 20:22:20,263 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:22:20,263 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:22:20,263 - mysql2csv - INFO - Got 10 columns.
+2014-12-03 20:22:20,263 - mysql2csv - INFO - Done.
+2014-12-03 20:22:20,263 - mysql2csv - INFO - Starting Thread-0
+2014-12-03 20:22:20,263 - mysql2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 20:22:20,263 - mysql2csv - INFO - Extracting data...
+2014-12-03 20:22:20,592 - mysql2csv - INFO - Done.
+2014-12-03 20:22:20,592 - mysql2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:22:20,592 - mysql2csv - INFO - Exiting Thread-0
+2014-12-03 20:22:20,592 - mysql2csv - INFO - Shard-0/0:      360799 rows
+2014-12-03 20:22:20,592 - mysql2csv - INFO - TOTAL Bytes:    35358302 Bytes
+2014-12-03 20:22:20,592 - mysql2csv - INFO - TOTAL Rows:       360799 Rows
+2014-12-03 20:22:20,592 - mysql2csv - INFO - Done.
+2014-12-03 20:22:20,592 - mysql2csv - INFO - Elapsed: 00:00:00

@@ -1,0 +1,54 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141201_215319\csvextractor64\csvextractor64.exe -w infob2csv -o 1 -r 1 -t "|" -q c:\Python27\data_migrator_1239\test\v101\query\mysql_query.sql -j "alex" -x "mysql_pwd" -b "test" -n "localhost" -z "C:\Temp\mysql\bin"
+infob2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Infobright (v1.23.9, beta, 2014/12/01 21:53:19) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141201_215327_326000\mysql_query_20141201_215327_326000.data
+####################
+Performing data extraction.
+
+From Infobright:
+from db: alex/test/localhost
+query: c:\Python27\data_migrator_1239\test\v101\query\mysql_query.sql
+shards:	1
+
+To CSV:
+C:\tmp\dm_out\20141201_215327_326000\mysql_query_20141201_215327_326000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-01 21:53:27,325 - infob2csv - INFO - Counting rows in source...
+2014-12-01 21:53:27,358 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-01 21:53:27,358 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-01 21:53:27,358 - infob2csv - INFO - 1000
+2014-12-01 21:53:27,358 - infob2csv - INFO - Done.
+2014-12-01 21:53:27,358 - infob2csv - INFO - Fetching source column names...
+2014-12-01 21:53:27,372 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-01 21:53:27,372 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-01 21:53:27,372 - infob2csv - INFO - Got 10 columns.
+2014-12-01 21:53:27,372 - infob2csv - INFO - Done.
+2014-12-01 21:53:27,372 - infob2csv - INFO - Starting Thread-0
+2014-12-01 21:53:27,372 - infob2csv - INFO - Thread-0 processing Shard-0
+2014-12-01 21:53:27,372 - infob2csv - INFO - Extracting data...
+2014-12-01 21:53:27,388 - infob2csv - INFO - Done.
+2014-12-01 21:53:27,388 - infob2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:53:27,388 - infob2csv - INFO - Exiting Thread-0
+2014-12-01 21:53:27,388 - infob2csv - INFO - Shard-0/0:        1000 rows
+2014-12-01 21:53:27,388 - infob2csv - INFO - TOTAL Bytes:       98000 Bytes
+2014-12-01 21:53:27,388 - infob2csv - INFO - TOTAL Rows:         1000 Rows
+2014-12-01 21:53:27,388 - infob2csv - INFO - Done.
+2014-12-01 21:53:27,388 - infob2csv - INFO - Elapsed: 00:00:00

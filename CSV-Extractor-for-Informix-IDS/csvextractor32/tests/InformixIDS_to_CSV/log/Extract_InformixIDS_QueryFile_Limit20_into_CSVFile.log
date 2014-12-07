@@ -1,0 +1,69 @@
+
+c:\Python27\data_migrator_1239>Extract only 20 rows from InformixIDS table into CSVFile location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141202_104444\csvextractor32\csvextractor32.exe -w infor2csv -o 1 -r 1 -t "|" -l 20 -q c:\Python27\data_migrator_1239\test\v101\query\informix_query.sql -j "informix" -x "test_pwd" -b "test" -n "ol_s_112614_175026" -z "C:\Program Files (x86)\IBM Informix Software Bundle\bin" -g c:\Python27\data_migrator_1239\CSV_OUT\testINFOR_QueryFile_Limit20.data
+infor2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Informix IDS (v1.23.9, beta, 2014/12/02 10:44:44) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From Informix IDS:
+from db: informix/test/ol_s_112614_175026
+query file: c:\Python27\data_migrator_1239\test\v101\query\informix_query.sql
+shards:	1
+
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\testINFOR_QueryFile_Limit20.data
+
+####################
+Are you sure you want to proceed?(y/n):
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~4\209EE6~1\CSVEXT~1\logs\20141202_104503_945000\sql\get_query_columns_20141202_104503.sql
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~4\209EE6~1\CSVEXT~1\logs\20141202_104503_945000\sql\get_query_columns_20141202_104503.sql
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-02 10:45:03,957 - infor2csv - INFO - Counting rows in source...
+2014-12-02 10:45:03,979 - infor2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-02 10:45:03,979 - infor2csv - INFO - Fetching query columns.
+2014-12-02 10:45:04,012 - infor2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-02 10:45:04,012 - infor2csv - INFO - Got 10 columns.
+2014-12-02 10:45:04,013 - infor2csv - INFO - Starting Thread-0
+2014-12-02 10:45:04,013 - infor2csv - INFO - Thread-0 processing Shard-0
+2014-12-02 10:45:04,013 - infor2csv - INFO - Extracting data...
+2014-12-02 10:45:04,046 - infor2csv - INFO - Done.
+2014-12-02 10:45:04,046 - infor2csv - INFO - Thread-0 exit status 0
+2014-12-02 10:45:04,046 - infor2csv - INFO - Exiting Thread-0
+2014-12-02 10:45:04,046 - infor2csv - INFO - Shard-0/0:          20 rows
+2014-12-02 10:45:04,046 - infor2csv - INFO - TOTAL Bytes:        1960 Bytes
+2014-12-02 10:45:04,046 - infor2csv - INFO - TOTAL Rows:           20 Rows
+2014-12-02 10:45:04,046 - infor2csv - INFO - Done.
+2014-12-02 10:45:04,046 - infor2csv - INFO - Elapsed: 00:00:00

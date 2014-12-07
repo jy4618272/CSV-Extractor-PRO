@@ -1,0 +1,47 @@
+
+c:\Python27\data_migrator_1239>Extract SAPSybaseASE table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141203_140234\csvextractor32\csvextractor32.exe -w syase2csv -o 1 -r 1 -t "|" -q c:\Python27\data_migrator_1239\test\v101\query\sybase_query.sql -j "dba" -x "sql" -b "demo" -n "demo16" -z "C:\Program Files\SQL Anywhere 16\Bin64"
+syase2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SAP Sybase ASE (v1.23.9, beta, 2014/12/03 14:02:34) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+C:\tmp\dm_out\20141203_140324_310000\sybase_query_20141203_140324_310000.data
+####################
+Performing data extraction.
+
+From SAP Sybase ASE:
+from db: dba/demo/demo16
+query file: c:\Python27\data_migrator_1239\test\v101\query\sybase_query.sql
+shards:	1
+
+
+To CSV:
+C:\tmp\dm_out\20141203_140324_310000\sybase_query_20141203_140324_310000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 2142L, 21)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-03 14:03:24,326 - syase2csv - INFO - Counting rows in source...
+2014-12-03 14:03:24,979 - syase2csv - INFO - Starting Thread-0
+2014-12-03 14:03:24,979 - syase2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 14:03:24,979 - syase2csv - INFO - Extracting data...
+2014-12-03 14:03:25,654 - syase2csv - INFO - Done.
+2014-12-03 14:03:25,655 - syase2csv - INFO - Thread-0 exit status 0
+2014-12-03 14:03:25,655 - syase2csv - INFO - Exiting Thread-0
+2014-12-03 14:03:25,655 - syase2csv - INFO - Shard-0/0:          21 rows
+2014-12-03 14:03:25,655 - syase2csv - INFO - TOTAL Bytes:        2142 Bytes
+2014-12-03 14:03:25,655 - syase2csv - INFO - TOTAL Rows:           21 Rows
+2014-12-03 14:03:25,655 - syase2csv - INFO - Done.
+2014-12-03 14:03:25,655 - syase2csv - INFO - Elapsed: 00:00:01

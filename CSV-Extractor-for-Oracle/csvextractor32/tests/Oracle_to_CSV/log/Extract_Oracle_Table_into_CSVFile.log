@@ -1,0 +1,44 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141201_215020\csvextractor32\csvextractor32.exe -w ora2csv -o 1 -r 1 -t "|" -c SCOTT.Persons_pipe_datetime -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -g c:\Python27\data_migrator_1239\CSV_OUT\testORA_Table.data
+ora2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Oracle (v1.23.9, beta, 2014/12/01 21:50:20) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From Oracle:
+from db: SCOTT@orcl
+table: SCOTT.Persons_pipe_datetime
+shards:	1
+
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\testORA_Table.data
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-01 21:51:01,464 - ora2csv - INFO - Fetching table info...
+2014-12-01 21:51:01,542 - ora2csv - INFO - Done.
+2014-12-01 21:51:01,542 - ora2csv - INFO - Fetching column info...
+2014-12-01 21:51:01,670 - ora2csv - INFO - Done.
+2014-12-01 21:51:01,670 - ora2csv - INFO - Starting Thread-0
+2014-12-01 21:51:01,670 - ora2csv - INFO - Thread-0 processing Shard-0
+2014-12-01 21:51:01,747 - ora2csv - INFO - Extracting data...
+2014-12-01 21:51:02,374 - ora2csv - INFO - Done.
+2014-12-01 21:51:02,374 - ora2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:51:02,374 - ora2csv - INFO - Exiting Thread-0
+2014-12-01 21:51:02,374 - ora2csv - INFO - Shard-0/0:        4224 rows
+2014-12-01 21:51:02,374 - ora2csv - INFO - TOTAL Bytes:      426623 Bytes
+2014-12-01 21:51:02,374 - ora2csv - INFO - TOTAL Rows:         4224 Rows
+2014-12-01 21:51:02,374 - ora2csv - INFO - Done.
+2014-12-01 21:51:02,374 - ora2csv - INFO - Elapsed: 00:00:00

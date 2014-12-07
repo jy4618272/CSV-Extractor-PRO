@@ -1,0 +1,66 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_64\20141203_202135\csvextractor64\csvextractor64.exe -w mysql2csv -o 1 -r 1 -t "|" -l 22 -c TEST.Persons_partitioned -P rx201411 -j "alex" -x "mysql_pwd" -b "test" -n "localhost" -z "C:\Temp\mysql\bin" -g C:\Python27\data_migrator_1239\CSV_OUT\testMYSQL_Partition_Limit22.data
+mysql2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for MySQL (v1.23.9, beta, 2014/12/03 20:21:35) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From MySQL:
+from db: alex/test/localhost
+table: TEST.Persons_partitioned
+partition: rx201411
+shards:	1
+
+To CSV:
+C:\Python27\data_migrator_1239\CSV_OUT\testMYSQL_Partition_Limit22.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 2156L, 22)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-03 20:21:54,657 - mysql2csv - INFO - Fetching table info...
+2014-12-03 20:21:54,690 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,690 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,690 - mysql2csv - INFO - Done.
+2014-12-03 20:21:54,690 - mysql2csv - INFO - Verifying partition...
+2014-12-03 20:21:54,704 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,704 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,704 - mysql2csv - INFO - Check OK. Partition "rx201411" exists in table "TEST.Persons_partitioned".
+2014-12-03 20:21:54,704 - mysql2csv - INFO - Done.
+2014-12-03 20:21:54,704 - mysql2csv - INFO - Counting rows in source...
+2014-12-03 20:21:54,720 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,720 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,720 - mysql2csv - INFO - Fetching source column names...
+2014-12-03 20:21:54,752 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,752 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:54,752 - mysql2csv - INFO - Got 10 columns.
+2014-12-03 20:21:54,752 - mysql2csv - INFO - Done.
+2014-12-03 20:21:54,752 - mysql2csv - INFO - Starting Thread-0
+2014-12-03 20:21:54,752 - mysql2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 20:21:54,752 - mysql2csv - INFO - Extracting data...
+2014-12-03 20:21:54,767 - mysql2csv - INFO - Done.
+2014-12-03 20:21:54,767 - mysql2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:21:54,767 - mysql2csv - INFO - Exiting Thread-0
+2014-12-03 20:21:54,767 - mysql2csv - INFO - Shard-0/0:          22 rows
+2014-12-03 20:21:54,767 - mysql2csv - INFO - TOTAL Bytes:        2156 Bytes
+2014-12-03 20:21:54,767 - mysql2csv - INFO - TOTAL Rows:           22 Rows
+2014-12-03 20:21:54,767 - mysql2csv - INFO - Done.
+2014-12-03 20:21:54,767 - mysql2csv - INFO - Elapsed: 00:00:00

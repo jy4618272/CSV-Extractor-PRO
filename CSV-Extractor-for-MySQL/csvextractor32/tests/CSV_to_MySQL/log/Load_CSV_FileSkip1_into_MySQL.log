@@ -1,0 +1,46 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141204_162306\csvextractor32\csvextractor32.exe -w csv2mysql -o 1 -r 1 -t "|" -i C:\Python27\data_migrator_1239\test\v101\data\mysql_shard_0.data -k 1 -y 100 -u alex -p mysql_pwd -d test -s localhost -a Persons_pipe_datetime_1 -Z "C:\Temp\mysql\bin"
+csv2mysql
+['CSV']
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for MySQL (v1.23.9, beta, 2014/12/04 16:23:06) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+MYSQL
+####################
+Performing data load.
+
+From CSV:
+input file: C:\Python27\data_migrator_1239\test\v101\data\mysql_shard_0.data
+
+
+To MySQL:
+to db: alex/test/localhost
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 6272L, 63)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-04 16:23:11,138 - csv2mysql - INFO - Counting lines in input file...
+2014-12-04 16:23:11,138 - csv2mysql - INFO - Done.
+2014-12-04 16:23:11,138 - csv2mysql - INFO - Estimated line count: 64
+2014-12-04 16:23:11,140 - csv2mysql - INFO - Skipping 1 first rows.
+2014-12-04 16:23:11,140 - csv2mysql - INFO - Starting Thread-0
+2014-12-04 16:23:11,141 - csv2mysql - INFO - Thread-0 processing Shard-0
+2014-12-04 16:23:11,141 - csv2mysql - INFO - Loading data...
+Warning: Using a password on the command line interface can be insecure.
+2014-12-04 16:23:11,380 - csv2mysql - INFO - Done.
+2014-12-04 16:23:11,381 - csv2mysql - INFO - Thread-0 exit status 0
+2014-12-04 16:23:11,381 - csv2mysql - INFO - Exiting Thread-0
+2014-12-04 16:23:11,381 - csv2mysql - INFO - Shard-0/0:          63 rows
+2014-12-04 16:23:11,381 - csv2mysql - INFO - TOTAL Bytes:        6272 Bytes
+2014-12-04 16:23:11,381 - csv2mysql - INFO - TOTAL Rows:           63 Rows
+2014-12-04 16:23:11,381 - csv2mysql - INFO - Done.
+2014-12-04 16:23:11,381 - csv2mysql - INFO - Elapsed: 00:00:00

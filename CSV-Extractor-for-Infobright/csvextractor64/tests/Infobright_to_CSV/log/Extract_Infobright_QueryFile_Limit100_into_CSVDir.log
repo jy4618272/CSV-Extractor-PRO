@@ -1,0 +1,58 @@
+
+C:\Python27\data_migrator_1239>Extract only 100 rows from Infobright table into CSVDir location.
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_64\20141203_202837\csvextractor64\csvextractor64.exe -w infob2csv -o 1 -r 1 -t "|" -l 100 -q C:\Python27\data_migrator_1239\test\v101\query\mysql_query.sql -j "alex" -x "mysql_pwd" -b "test" -n "localhost" -z "C:\Temp\mysql\bin" -D C:\Python27\data_migrator_1239\CSV_OUT
+infob2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Infobright (v1.23.9, beta, 2014/12/03 20:28:37) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From Infobright:
+from db: alex/test/localhost
+query file: C:\Python27\data_migrator_1239\test\v101\query\mysql_query.sql
+shards:	1
+
+To CSV:
+C:\Python27\data_migrator_1239\CSV_OUT\mysql_query_20141203_202858_341000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 9800L, 100)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-03 20:28:58,341 - infob2csv - INFO - Counting rows in source...
+2014-12-03 20:28:58,371 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:28:58,371 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:28:58,371 - infob2csv - INFO - 100
+2014-12-03 20:28:58,371 - infob2csv - INFO - Done.
+2014-12-03 20:28:58,371 - infob2csv - INFO - Fetching source column names...
+2014-12-03 20:28:58,388 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:28:58,388 - infob2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:28:58,388 - infob2csv - INFO - Got 10 columns.
+2014-12-03 20:28:58,388 - infob2csv - INFO - Done.
+2014-12-03 20:28:58,388 - infob2csv - INFO - Starting Thread-0
+2014-12-03 20:28:58,388 - infob2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 20:28:58,388 - infob2csv - INFO - Extracting data...
+2014-12-03 20:28:58,403 - infob2csv - INFO - Done.
+2014-12-03 20:28:58,403 - infob2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:28:58,403 - infob2csv - INFO - Exiting Thread-0
+2014-12-03 20:28:58,403 - infob2csv - INFO - Shard-0/0:         100 rows
+2014-12-03 20:28:58,403 - infob2csv - INFO - TOTAL Bytes:        9800 Bytes
+2014-12-03 20:28:58,403 - infob2csv - INFO - TOTAL Rows:          100 Rows
+2014-12-03 20:28:58,403 - infob2csv - INFO - Done.
+2014-12-03 20:28:58,403 - infob2csv - INFO - Elapsed: 00:00:00

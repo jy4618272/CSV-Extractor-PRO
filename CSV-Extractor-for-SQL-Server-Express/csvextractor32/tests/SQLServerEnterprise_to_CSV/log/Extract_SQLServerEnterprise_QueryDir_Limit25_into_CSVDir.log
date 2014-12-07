@@ -1,0 +1,66 @@
+
+C:\Python27\data_migrator_1239>Extract only 25 rows from SQLServerEnterprise table into CSVDir location.
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141203_120637\csvextractor32\csvextractor32.exe -w ssent2csv -o 1 -r 1 -t "|" -l 25 -Q C:\Python27\data_migrator_1239\test\v101\query\query_dir_ss -j sa -x ssent_pwd -b test -n ALEX_BUZ-PC\MSSQLSERVER_ENT -z "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn" -D C:\Python27\data_migrator_1239\CSV_OUT
+ssent2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SQL Server Express (v1.23.9, beta, 2014/12/03 12:06:37) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+C:\Python27\data_migrator_1239\test\v101\query\query_dir_ss
+CSV
+####################
+Performing data extraction.
+
+From SQL Server Enterprise:
+from db: sa/test/ALEX_BUZ-PC\MSSQLSERVER_ENT
+query dir: C:\Python27\data_migrator_1239\test\v101\query\query_dir_ss
+shards:	3
+
+
+To CSV:
+C:\Python27\data_migrator_1239\CSV_OUT\spool_20141203_120724_060000_ss_query_0.data
+C:\Python27\data_migrator_1239\CSV_OUT\spool_20141203_120724_060000_ss_query_1.data
+C:\Python27\data_migrator_1239\CSV_OUT\spool_20141203_120724_060000_ss_query_2.data
+
+####################
+Are you sure you want to proceed?(y/n): Thread-0 (0, 2549L, 25)
+Thread-0 (0, 2549L, 25)
+Thread-0 (0, 2549L, 25)
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-03 12:07:24,061 - ssent2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+2014-12-03 12:07:24,072 - ssent2csv - INFO - Fetching query columns...
+2014-12-03 12:07:24,132 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,134 - ssent2csv - INFO - Fetching query columns...
+2014-12-03 12:07:24,194 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,322 - ssent2csv - INFO - Fetching query columns...
+2014-12-03 12:07:24,382 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,384 - ssent2csv - INFO - Starting Thread-0
+2014-12-03 12:07:24,384 - ssent2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 12:07:24,384 - ssent2csv - INFO - Extracting data...
+2014-12-03 12:07:24,437 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,437 - ssent2csv - INFO - Thread-0 exit status 0
+2014-12-03 12:07:24,438 - ssent2csv - INFO - Thread-0 processing Shard-1
+2014-12-03 12:07:24,438 - ssent2csv - INFO - Extracting data...
+2014-12-03 12:07:24,489 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,490 - ssent2csv - INFO - Thread-0 exit status 0
+2014-12-03 12:07:24,490 - ssent2csv - INFO - Thread-0 processing Shard-2
+2014-12-03 12:07:24,490 - ssent2csv - INFO - Extracting data...
+2014-12-03 12:07:24,540 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,540 - ssent2csv - INFO - Thread-0 exit status 0
+2014-12-03 12:07:24,540 - ssent2csv - INFO - Exiting Thread-0
+2014-12-03 12:07:24,540 - ssent2csv - INFO - Shard-0/0:          25 rows
+2014-12-03 12:07:24,540 - ssent2csv - INFO - Shard-1/0:          25 rows
+2014-12-03 12:07:24,542 - ssent2csv - INFO - Shard-2/0:          25 rows
+2014-12-03 12:07:24,542 - ssent2csv - INFO - TOTAL Bytes:        7647 Bytes
+2014-12-03 12:07:24,542 - ssent2csv - INFO - TOTAL Rows:           75 Rows
+2014-12-03 12:07:24,542 - ssent2csv - INFO - Done.
+2014-12-03 12:07:24,542 - ssent2csv - INFO - Elapsed: 00:00:00

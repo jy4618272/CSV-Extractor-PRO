@@ -1,0 +1,46 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141204_162134\csvextractor32\csvextractor32.exe -w csv2infob -o 1 -r 1 -t "|" -i C:\Python27\data_migrator_1239\test\v101\data\mysql_shard_0.data -k 1 -y 100 -u alex -p mysql_pwd -d test -s localhost -a Persons_pipe_datetime_1 -Z "C:\Temp\mysql\bin"
+csv2infob
+['CSV']
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Infobright (v1.23.9, beta, 2014/12/04 16:21:34) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+INFOB
+####################
+Performing data load.
+
+From CSV:
+input file: C:\Python27\data_migrator_1239\test\v101\data\mysql_shard_0.data
+
+
+To Infobright:
+to db: alex/test/localhost
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-0 (0, 6272L, 63)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-04 16:21:39,316 - csv2infob - INFO - Counting lines in input file...
+2014-12-04 16:21:39,316 - csv2infob - INFO - Done.
+2014-12-04 16:21:39,316 - csv2infob - INFO - Estimated line count: 64
+2014-12-04 16:21:39,318 - csv2infob - INFO - Skipping 1 first rows.
+2014-12-04 16:21:39,318 - csv2infob - INFO - Starting Thread-0
+2014-12-04 16:21:39,319 - csv2infob - INFO - Thread-0 processing Shard-0
+2014-12-04 16:21:39,319 - csv2infob - INFO - Loading data...
+Warning: Using a password on the command line interface can be insecure.
+2014-12-04 16:21:39,374 - csv2infob - INFO - Done.
+2014-12-04 16:21:39,375 - csv2infob - INFO - Thread-0 exit status 0
+2014-12-04 16:21:39,375 - csv2infob - INFO - Exiting Thread-0
+2014-12-04 16:21:39,375 - csv2infob - INFO - Shard-0/0:          63 rows
+2014-12-04 16:21:39,375 - csv2infob - INFO - TOTAL Bytes:        6272 Bytes
+2014-12-04 16:21:39,375 - csv2infob - INFO - TOTAL Rows:           63 Rows
+2014-12-04 16:21:39,375 - csv2infob - INFO - Done.
+2014-12-04 16:21:39,375 - csv2infob - INFO - Elapsed: 00:00:00

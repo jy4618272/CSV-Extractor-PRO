@@ -1,0 +1,60 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_32\20141203_125843\csvextractor32\csvextractor32.exe -w pgres2csv -o 3 -r 3 -t "|" -c Persons_partitioned -j "postgres" -x "postgre_pwd" -b "postgres" -n "localhost" -z "C:\Program Files\PostgreSQL\9.4\bin" -R 5434 -D C:\Python27\data_migrator_1239\CSV_OUT
+pgres2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for PostgreSQL (v1.23.9, beta, 2014/12/03 12:58:43) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From PostgreSQL:
+from db: postgres/postgres/localhost
+table: Persons_partitioned
+shards:	3
+
+
+To CSV:
+C:\Python27\data_migrator_1239\CSV_OUT\Persons_partitioned_20141203_125904_723000.Shard-0.data
+C:\Python27\data_migrator_1239\CSV_OUT\Persons_partitioned_20141203_125904_723000.Shard-1.data
+C:\Python27\data_migrator_1239\CSV_OUT\Persons_partitioned_20141203_125904_723000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-1 (0, 1578L, 15)Thread-0
+(0, 1696L, 16)
+Thread-2 (0, 1903L, 18)
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-12-03 12:59:04,733 - pgres2csv - INFO - Counting rows in source...
+2014-12-03 12:59:04,789 - pgres2csv - INFO - Starting Thread-0
+2014-12-03 12:59:04,789 - pgres2csv - INFO - Starting Thread-1
+2014-12-03 12:59:04,790 - pgres2csv - INFO - Starting Thread-2
+2014-12-03 12:59:04,790 - pgres2csv - INFO - Thread-1 processing Shard-0
+2014-12-03 12:59:04,790 - pgres2csv - INFO - Thread-0 processing Shard-1
+2014-12-03 12:59:04,792 - pgres2csv - INFO - Thread-2 processing Shard-2
+2014-12-03 12:59:04,792 - pgres2csv - INFO - Extracting data...
+2014-12-03 12:59:04,792 - pgres2csv - INFO - Extracting data...
+2014-12-03 12:59:04,792 - pgres2csv - INFO - Extracting data...
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Done.
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Done.
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Done.
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Thread-1 exit status 0
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Thread-0 exit status 0
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Exiting Thread-1
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Exiting Thread-0
+2014-12-03 12:59:04,822 - pgres2csv - INFO - Thread-2 exit status 0
+2014-12-03 12:59:04,823 - pgres2csv - INFO - Exiting Thread-2
+2014-12-03 12:59:04,823 - pgres2csv - INFO - Shard-0/0:          15 rows
+2014-12-03 12:59:04,823 - pgres2csv - INFO - Shard-1/0:          16 rows
+2014-12-03 12:59:04,823 - pgres2csv - INFO - Shard-2/0:          18 rows
+2014-12-03 12:59:04,823 - pgres2csv - INFO - TOTAL Bytes:        5177 Bytes
+2014-12-03 12:59:04,823 - pgres2csv - INFO - TOTAL Rows:           49 Rows
+2014-12-03 12:59:04,823 - pgres2csv - INFO - Done.
+2014-12-03 12:59:04,823 - pgres2csv - INFO - Elapsed: 00:00:00

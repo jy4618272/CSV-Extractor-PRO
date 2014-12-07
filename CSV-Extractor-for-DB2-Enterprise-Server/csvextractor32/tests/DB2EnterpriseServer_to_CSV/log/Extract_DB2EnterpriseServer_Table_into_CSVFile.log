@@ -1,0 +1,43 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141201_212131\csvextractor32\csvextractor32.exe -w dbtes2csv -o 1 -r 1 -t "|" -c Persons_pipe_datetime_1 -j "ALEX_BUZ" -x "198Morgan" -b "SAMPLE" -n "DB2" -z "C:\Program Files (x86)\IBM\SQLLIB_01\BIN" -g c:\Python27\data_migrator_1239\CSV_OUT\testDBTES_Table.data
+dbtes2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for DB2 Enterprise Server (v1.23.9, beta, 2014/12/01 21:21:31) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From DB2 Enterprise Server:
+from db: ALEX_BUZ/SAMPLE/DB2
+table: Persons_pipe_datetime_1
+shards:	1
+
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\testDBTES_Table.data
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-01 21:24:28,180 - dbtes2csv - INFO - Counting rows in source...
+2014-12-01 21:24:29,276 - dbtes2csv - INFO - Fetching query columns.
+2014-12-01 21:24:30,372 - dbtes2csv - INFO - Got 10 columns.
+2014-12-01 21:24:30,372 - dbtes2csv - INFO - Starting Thread-0
+2014-12-01 21:24:30,372 - dbtes2csv - INFO - Thread-0 processing Shard-0
+2014-12-01 21:24:30,372 - dbtes2csv - INFO - Extracting data...
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - Done.
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - Exiting Thread-0
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - Shard-0/0:          73 rows
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - TOTAL Bytes:        7665 Bytes
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - TOTAL Rows:           73 Rows
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - Done.
+2014-12-01 21:24:31,457 - dbtes2csv - INFO - Elapsed: 00:00:03

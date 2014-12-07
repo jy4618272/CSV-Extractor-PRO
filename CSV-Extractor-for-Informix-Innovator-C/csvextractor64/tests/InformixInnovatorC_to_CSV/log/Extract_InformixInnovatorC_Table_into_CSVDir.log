@@ -1,0 +1,65 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141202_104513\csvextractor64\csvextractor64.exe -w inforc2csv -o 1 -r 1 -t "|" -c Persons_pipe_datetime_1 -j "informix" -x "test_pwd" -b "test" -n "ol_s_112614_175026" -z "C:\Program Files (x86)\IBM Informix Software Bundle\bin" -D c:\Python27\data_migrator_1239\CSV_OUT
+inforc2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Informix Innovator C (v1.23.9, beta, 2014/12/02 10:45:13) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From Informix Innovator C:
+from db: informix/test/ol_s_112614_175026
+table: Persons_pipe_datetime_1
+shards:	1
+
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\Persons_pipe_datetime_1_20141202_104520_204000.data
+
+####################
+Are you sure you want to proceed?(y/n):
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~3\20619C~1\CSVEXT~1\logs\20141202_104520_204000\sql\get_query_columns_20141202_104520.sql
+C:\Program Files (x86)\IBM Informix Software Bundle\bin\dbaccess.exe - c:\Python27\CSVEXT~3\20619C~1\CSVEXT~1\logs\20141202_104520_204000\sql\get_query_columns_20141202_104520.sql
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-12-02 10:45:20,216 - inforc2csv - INFO - Counting rows in source...
+2014-12-02 10:45:20,236 - inforc2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-02 10:45:20,236 - inforc2csv - INFO - Fetching query columns.
+2014-12-02 10:45:20,257 - inforc2csv - WARNING -
+Connected.
+
+
+1 row(s) retrieved.
+
+
+Disconnected.
+
+
+2014-12-02 10:45:20,257 - inforc2csv - INFO - Got 10 columns.
+2014-12-02 10:45:20,257 - inforc2csv - INFO - Starting Thread-0
+2014-12-02 10:45:20,257 - inforc2csv - INFO - Thread-0 processing Shard-0
+2014-12-02 10:45:20,259 - inforc2csv - INFO - Extracting data...
+2014-12-02 10:45:20,290 - inforc2csv - INFO - Done.
+2014-12-02 10:45:20,290 - inforc2csv - INFO - Thread-0 exit status 0
+2014-12-02 10:45:20,290 - inforc2csv - INFO - Exiting Thread-0
+2014-12-02 10:45:20,290 - inforc2csv - INFO - Shard-0/0:          72 rows
+2014-12-02 10:45:20,290 - inforc2csv - INFO - TOTAL Bytes:        7056 Bytes
+2014-12-02 10:45:20,290 - inforc2csv - INFO - TOTAL Rows:           72 Rows
+2014-12-02 10:45:20,290 - inforc2csv - INFO - Done.
+2014-12-02 10:45:20,290 - inforc2csv - INFO - Elapsed: 00:00:00

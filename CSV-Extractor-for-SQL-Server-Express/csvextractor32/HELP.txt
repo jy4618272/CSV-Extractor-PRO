@@ -1,0 +1,16 @@
+##
+##csvextractor32.exe -h 
+##
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SQL Server Express (v1.23.9, beta, 2014/12/03 12:06:37) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+For detailed help use one of the options:
+
+From SQL Server Express:
+
+	To CSV                 : csvextractor32.exe -h ssexp2csv
+

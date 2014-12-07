@@ -1,0 +1,71 @@
+
+C:\Python27\data_migrator_1239>Extract only 333 rows from MySQL table into CSVDefault location.
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_64\20141203_202135\csvextractor64\csvextractor64.exe -w mysql2csv -o 1 -r 1 -t "|" -l 333 -Q C:\Python27\data_migrator_1239\test\v101\query\query_dir_mysql -j "alex" -x "mysql_pwd" -b "test" -n "localhost" -z "C:\Temp\mysql\bin"
+mysql2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for MySQL (v1.23.9, beta, 2014/12/03 20:21:35) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+C:\Python27\data_migrator_1239\test\v101\query\query_dir_mysql
+CSV
+####################
+Performing data extraction.
+
+From MySQL:
+from db: alex/test/localhost
+query dir: C:\Python27\data_migrator_1239\test\v101\query\query_dir_mysql
+shards:	3
+
+To CSV:
+C:\tmp\dm_out\20141203_202151_311000\spool_20141203_202151_311000_mysql_query_0.data
+C:\tmp\dm_out\20141203_202151_311000\spool_20141203_202151_311000_mysql_query_1.data
+C:\tmp\dm_out\20141203_202151_311000\spool_20141203_202151_311000_mysql_query_2.data
+
+####################
+Are you sure you want to proceed?(y/n): Thread-0 (0, 32634L, 333)
+Thread-0 (0, 32634L, 333)
+Thread-0 (0, 32634L, 333)
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-03 20:21:51,311 - mysql2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+2014-12-03 20:21:51,342 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:51,342 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:51,358 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:51,358 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:51,372 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:51,372 - mysql2csv - WARNING - Warning: Using a password on the command line interface can be insecure.
+
+2014-12-03 20:21:51,372 - mysql2csv - INFO - Starting Thread-0
+2014-12-03 20:21:51,372 - mysql2csv - INFO - Thread-0 processing Shard-0
+2014-12-03 20:21:51,372 - mysql2csv - INFO - Extracting data...
+2014-12-03 20:21:51,936 - mysql2csv - INFO - Done.
+2014-12-03 20:21:51,936 - mysql2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:21:51,936 - mysql2csv - INFO - Thread-0 processing Shard-1
+2014-12-03 20:21:51,936 - mysql2csv - INFO - Extracting data...
+2014-12-03 20:21:52,598 - mysql2csv - INFO - Done.
+2014-12-03 20:21:52,598 - mysql2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:21:52,598 - mysql2csv - INFO - Thread-0 processing Shard-2
+2014-12-03 20:21:52,598 - mysql2csv - INFO - Extracting data...
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Done.
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Thread-0 exit status 0
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Exiting Thread-0
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Shard-0/0:         333 rows
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Shard-1/0:         333 rows
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Shard-2/0:         333 rows
+2014-12-03 20:21:53,052 - mysql2csv - INFO - TOTAL Bytes:       97902 Bytes
+2014-12-03 20:21:53,052 - mysql2csv - INFO - TOTAL Rows:          999 Rows
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Done.
+2014-12-03 20:21:53,052 - mysql2csv - INFO - Elapsed: 00:00:01

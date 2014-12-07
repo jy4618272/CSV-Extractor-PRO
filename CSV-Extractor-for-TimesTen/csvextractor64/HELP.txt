@@ -1,0 +1,16 @@
+##
+##csvextractor64.exe -h 
+##
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for TimesTen (v1.23.9, beta, 2014/12/02 14:45:57) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+For detailed help use one of the options:
+
+From TimesTen:
+
+	To CSV                 : csvextractor64.exe -h tten2csv
+

@@ -1,0 +1,64 @@
+
+C:\Python27\data_migrator_1239>echo y  | C:\Python27\csvextractor_dist_64\20141203_120637\csvextractor64\csvextractor64.exe -w ssexp2csv -o 3 -r 3 -t "|" -c dbo.Persons_pipe_datetime -j sa -x 198Morgan -b master -n ALEX_BUZ-PC\SQLEXPRESS -z "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn"
+ssexp2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SQL Server Express (v1.23.9, beta, 2014/12/03 12:06:37) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From SQL Server Express:
+from db: sa/master/ALEX_BUZ-PC\SQLEXPRESS
+table: dbo.Persons_pipe_datetime
+shards:	3
+
+
+To CSV:
+C:\tmp\dm_out\20141203_120645_722000\dbo.Persons_pipe_datetime_20141203_120645_722000.Shard-0.data
+C:\tmp\dm_out\20141203_120645_722000\dbo.Persons_pipe_datetime_20141203_120645_722000.Shard-1.data
+C:\tmp\dm_out\20141203_120645_722000\dbo.Persons_pipe_datetime_20141203_120645_722000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+Thread-2 (0, 1529L, 15)
+Thread-0 (0, 1325L, 13)
+Thread-1 (0, 1223L, 12)
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-12-03 12:06:45,730 - ssexp2csv - INFO - Counting rows...
+2014-12-03 12:06:45,730 - ssexp2csv - INFO - Counting rows in source...
+2014-12-03 12:06:45,786 - ssexp2csv - INFO - Fetching table columns...
+2014-12-03 12:06:45,841 - ssexp2csv - INFO - Done.
+2014-12-03 12:06:45,841 - ssexp2csv - INFO - Sharding query by PersonID
+2014-12-03 12:06:45,845 - ssexp2csv - INFO - Starting Thread-0
+2014-12-03 12:06:45,845 - ssexp2csv - INFO - Starting Thread-1
+2014-12-03 12:06:45,846 - ssexp2csv - INFO - Starting Thread-2
+2014-12-03 12:06:45,846 - ssexp2csv - INFO - Thread-1 processing Shard-0
+2014-12-03 12:06:45,846 - ssexp2csv - INFO - Thread-0 processing Shard-1
+2014-12-03 12:06:45,846 - ssexp2csv - INFO - Thread-2 processing Shard-2
+2014-12-03 12:06:45,846 - ssexp2csv - INFO - Extracting data...
+2014-12-03 12:06:45,846 - ssexp2csv - INFO - Extracting data...
+2014-12-03 12:06:45,848 - ssexp2csv - INFO - Extracting data...
+2014-12-03 12:06:45,903 - ssexp2csv - INFO - Done.
+2014-12-03 12:06:45,903 - ssexp2csv - INFO - Thread-2 exit status 0
+2014-12-03 12:06:45,903 - ssexp2csv - INFO - Exiting Thread-2
+2014-12-03 12:06:45,905 - ssexp2csv - INFO - Done.
+2014-12-03 12:06:45,905 - ssexp2csv - INFO - Done.
+2014-12-03 12:06:45,905 - ssexp2csv - INFO - Thread-0 exit status 0
+2014-12-03 12:06:45,905 - ssexp2csv - INFO - Thread-1 exit status 0
+2014-12-03 12:06:45,905 - ssexp2csv - INFO - Exiting Thread-0
+2014-12-03 12:06:45,905 - ssexp2csv - INFO - Exiting Thread-1
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - Shard-0/0:          12 rows
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - Shard-1/0:          13 rows
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - Shard-2/0:          15 rows
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - TOTAL Bytes:        4077 Bytes
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - TOTAL Rows:           40 Rows
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - Done.
+2014-12-03 12:06:45,907 - ssexp2csv - INFO - Elapsed: 00:00:00

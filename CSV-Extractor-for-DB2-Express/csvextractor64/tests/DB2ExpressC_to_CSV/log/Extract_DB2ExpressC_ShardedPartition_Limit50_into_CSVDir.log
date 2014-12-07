@@ -1,0 +1,60 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_64\20141201_213716\csvextractor64\csvextractor64.exe -w dbtec2csv -o 3 -r 3 -t "|" -l 50 -c Persons_pipe_datetime_1 -P 0 -j "ALEX_BUZ" -x "198Morgan" -b "SAMPLE" -n "DB2" -z "C:\Program Files (x86)\IBM\SQLLIB_01\BIN" -D c:\Python27\data_migrator_1239\CSV_OUT
+dbtec2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for DB2 Express C (v1.23.9, beta, 2014/12/01 21:37:16) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+CSV
+####################
+Performing data extraction.
+
+From DB2 Express C:
+from db: ALEX_BUZ/SAMPLE/DB2
+table: Persons_pipe_datetime_1
+partition: 0
+shards:	3
+
+
+To CSV:
+c:\Python27\data_migrator_1239\CSV_OUT\Persons_pipe_datetime_1_0.20141201_213837_091000.Shard-0.data
+c:\Python27\data_migrator_1239\CSV_OUT\Persons_pipe_datetime_1_0.20141201_213837_091000.Shard-1.data
+c:\Python27\data_migrator_1239\CSV_OUT\Persons_pipe_datetime_1_0.20141201_213837_091000.Shard-2.data
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-12-01 21:38:37,105 - dbtec2csv - INFO - Fetching query columns.
+2014-12-01 21:38:38,213 - dbtec2csv - INFO - Got 10 columns.
+2014-12-01 21:38:38,213 - dbtec2csv - INFO - Counting rows in source...
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Starting Thread-0
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Starting Thread-1
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Starting Thread-2
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Thread-1 processing Shard-0
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Thread-0 processing Shard-1
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Extracting data...
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Thread-2 processing Shard-2
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Extracting data...
+2014-12-01 21:38:39,322 - dbtec2csv - INFO - Extracting data...
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Done.
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Done.
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Done.
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Thread-2 exit status 0
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Thread-1 exit status 0
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Exiting Thread-2
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Exiting Thread-0
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Exiting Thread-1
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Shard-0/0:          14 rows
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Shard-1/0:          17 rows
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Shard-2/0:          19 rows
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - TOTAL Bytes:        5250 Bytes
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - TOTAL Rows:           50 Rows
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Done.
+2014-12-01 21:38:40,476 - dbtec2csv - INFO - Elapsed: 00:00:03

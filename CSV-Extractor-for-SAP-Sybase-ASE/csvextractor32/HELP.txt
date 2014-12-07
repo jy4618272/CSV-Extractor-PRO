@@ -1,0 +1,16 @@
+##
+##csvextractor32.exe -h 
+##
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for SAP Sybase ASE (v1.23.9, beta, 2014/12/03 14:02:34) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+For detailed help use one of the options:
+
+From SAP Sybase ASE:
+
+	To CSV                 : csvextractor32.exe -h syase2csv
+

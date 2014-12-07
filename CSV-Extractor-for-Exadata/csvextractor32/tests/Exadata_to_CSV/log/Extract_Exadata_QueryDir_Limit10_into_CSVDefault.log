@@ -1,0 +1,63 @@
+
+c:\Python27\data_migrator_1239>Extract only 10 rows from Exadata table into CSVDefault location.
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\csvextractor_dist_32\20141201_215140\csvextractor32\csvextractor32.exe -w exad2csv -o 1 -r 1 -t "|" -l 10 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN"
+exad2csv
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Extractor for Exadata (v1.23.9, beta, 2014/12/01 21:51:40) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora
+CSV
+####################
+Performing data extraction.
+
+From Exadata:
+from db: SCOTT@orcl
+query: c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora
+shards:	3
+
+
+To CSV:
+C:\tmp\dm_out\20141201_215227_605000\spool_20141201_215227_605000_oracle_query0.data
+C:\tmp\dm_out\20141201_215227_605000\spool_20141201_215227_605000_oracle_query1.data
+C:\tmp\dm_out\20141201_215227_605000\spool_20141201_215227_605000_oracle_query3.data
+
+####################
+Are you sure you want to proceed?(y/n): ############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+'Extract' is not recognized as an internal or external command,
+operable program or batch file.
+2014-12-01 21:52:27,605 - exad2csv - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+2014-12-01 21:52:27,637 - exad2csv - INFO - Fetching column info...
+2014-12-01 21:52:27,683 - exad2csv - INFO - Done.
+2014-12-01 21:52:27,683 - exad2csv - INFO - Fetching column info...
+2014-12-01 21:52:27,746 - exad2csv - INFO - Done.
+2014-12-01 21:52:27,746 - exad2csv - INFO - Fetching column info...
+2014-12-01 21:52:27,793 - exad2csv - INFO - Done.
+2014-12-01 21:52:27,793 - exad2csv - INFO - Starting Thread-0
+2014-12-01 21:52:27,793 - exad2csv - INFO - Thread-0 processing Shard-0
+2014-12-01 21:52:27,809 - exad2csv - INFO - Extracting data...
+2014-12-01 21:52:27,917 - exad2csv - INFO - Done.
+2014-12-01 21:52:27,917 - exad2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:52:27,917 - exad2csv - INFO - Thread-0 processing Shard-1
+2014-12-01 21:52:28,029 - exad2csv - INFO - Extracting data...
+2014-12-01 21:52:28,263 - exad2csv - INFO - Done.
+2014-12-01 21:52:28,263 - exad2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:52:28,263 - exad2csv - INFO - Thread-0 processing Shard-2
+2014-12-01 21:52:28,263 - exad2csv - INFO - Extracting data...
+2014-12-01 21:52:28,575 - exad2csv - INFO - Done.
+2014-12-01 21:52:28,575 - exad2csv - INFO - Thread-0 exit status 0
+2014-12-01 21:52:28,575 - exad2csv - INFO - Exiting Thread-0
+2014-12-01 21:52:28,575 - exad2csv - INFO - Shard-0/0:          10 rows
+2014-12-01 21:52:28,575 - exad2csv - INFO - Shard-1/0:          10 rows
+2014-12-01 21:52:28,575 - exad2csv - INFO - Shard-2/0:          10 rows
+2014-12-01 21:52:28,575 - exad2csv - INFO - TOTAL Bytes:        3027 Bytes
+2014-12-01 21:52:28,575 - exad2csv - INFO - TOTAL Rows:           30 Rows
+2014-12-01 21:52:28,575 - exad2csv - INFO - Done.
+2014-12-01 21:52:28,575 - exad2csv - INFO - Elapsed: 00:00:00
